@@ -25,14 +25,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
      inkscape:zoom="0.76996528"
-     inkscape:cx="396.77114"
-     inkscape:cy="466.90417"
+     inkscape:cx="499.37317"
+     inkscape:cy="565.60992"
      inkscape:window-width="1816"
      inkscape:window-height="1082"
      inkscape:window-x="1921"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer2"
      showgrid="true"
      showguides="true">
     <inkscape:grid
@@ -963,114 +963,786 @@
     </pattern>
   </defs>
   <g
+     id="path279"
+     style="stroke-width:0.508;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0">
+    <path
+       style="color:#000000;fill:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.508;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;fill-opacity:0"
+       d="m 147.4707,213.74219 a 3.175,3.175 0 0 0 -4.2539,1.43554 l -5.39844,10.89649 -23.57617,-0.14649 a 3.1753175,3.1753175 0 0 0 -2.84766,4.61719 l 6.51367,12.7832 a 3.1753175,3.1753175 0 0 0 2.84766,1.73438 l 11.12891,-0.0644 11.18945,9.53906 a 3.175,3.175 0 0 0 4.47656,-0.35547 3.175,3.175 0 0 0 -0.35742,-4.47656 l -12.08594,-10.30469 a 3.1753175,3.1753175 0 0 0 -2.07812,-0.75977 l -10.35157,0.0605 -3.25585,-6.39062 20.33984,0.125 a 3.1753175,3.1753175 0 0 0 2.86523,-1.76563 l 6.2793,-12.67383 a 3.175,3.175 0 0 0 -1.43555,-4.2539 z"
+       id="path281" />
+  </g>
+  <g
+     id="g609"
+     inkscape:label="Perimeter"
+     style="display:inline"
+     transform="rotate(-45,76.095314,156.62482)">
+    <g
+       id="g561"
+       transform="translate(6.35,6.085411)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse501"
+         cx="127.13229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse502"
+         cx="38.232292"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse503"
+         cx="139.83229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse504"
+         cx="50.932289"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse505"
+         cx="152.53229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse506"
+         cx="63.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse507"
+         cx="165.23228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse508"
+         cx="76.332291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse509"
+         cx="177.93228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse510"
+         cx="89.032288"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse511"
+         cx="190.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse512"
+         cx="101.73229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse513"
+         cx="203.33229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse514"
+         cx="114.43229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse515"
+         cx="216.03229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse516"
+         cx="25.532291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+    </g>
+    <g
+       id="g593"
+       transform="translate(-6.217701,-6.35)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse561"
+         cx="190.50882"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse562"
+         cx="101.48534"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse563"
+         cx="203.22646"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse564"
+         cx="114.20299"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse565"
+         cx="215.94409"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse566"
+         cx="126.92062"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse567"
+         cx="228.66173"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse568"
+         cx="139.63826"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse569"
+         cx="241.37938"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse570"
+         cx="152.3559"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse571"
+         cx="254.09702"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse572"
+         cx="165.07355"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse573"
+         cx="266.81464"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse574"
+         cx="177.79118"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+    </g>
+    <g
+       id="g592"
+       transform="translate(6.35,196.72829)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse577"
+         cx="127.13229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse578"
+         cx="38.232292"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse579"
+         cx="139.83229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse580"
+         cx="50.932289"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse581"
+         cx="152.53229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse582"
+         cx="63.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse583"
+         cx="165.23228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse584"
+         cx="76.332291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse585"
+         cx="177.93228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse586"
+         cx="89.032288"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse587"
+         cx="190.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse588"
+         cx="101.73229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse589"
+         cx="203.33229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse590"
+         cx="114.43229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse591"
+         cx="216.03229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse592"
+         cx="25.532291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+    </g>
+    <g
+       id="g606"
+       transform="translate(-196.7177,-6.35)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse593"
+         cx="190.50882"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse594"
+         cx="101.48534"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse595"
+         cx="203.22646"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse596"
+         cx="114.20299"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse597"
+         cx="215.94409"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse598"
+         cx="126.92062"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse599"
+         cx="228.66173"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse600"
+         cx="139.63826"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse601"
+         cx="241.37938"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse602"
+         cx="152.3559"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse603"
+         cx="254.09702"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse604"
+         cx="165.07355"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse605"
+         cx="266.81464"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse606"
+         cx="177.79118"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+    </g>
+    <g
+       id="g272"
+       inkscape:label="Perimeter outline"
+       transform="translate(0.1118467,42.234089)"
+       style="display:inline">
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.508;stroke-dasharray:none;stroke-opacity:1"
+         id="rect271"
+         width="196.342"
+         height="196.342"
+         x="28.849447"
+         y="37.201767"
+         rx="3.175"
+         ry="3.1749997" />
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.508;stroke-dasharray:none;stroke-opacity:1"
+         id="rect272"
+         width="184.912"
+         height="184.912"
+         x="34.564445"
+         y="42.916763"
+         rx="0"
+         ry="0" />
+    </g>
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Card cradle"
      style="display:inline"
-     transform="translate(20.464736,12.79748)">
-    <rect
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264999"
-       id="rect10"
-       width="69.849998"
-       height="95.25"
-       x="-39.495396"
-       y="144.79553"
-       transform="rotate(-45)" />
+     transform="rotate(-45,81.151178,125.5891)">
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264999"
        id="rect11"
        width="69.849998"
        height="95.25"
-       x="-109.6104"
-       y="144.79553"
+       x="-180.74185"
+       y="290.15112"
        transform="rotate(-45)" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.264999"
        id="rect150"
        width="75.935005"
        height="101.335"
-       x="-42.843761"
-       y="141.38922"
+       x="-113.97521"
+       y="286.74481"
        transform="rotate(-45)" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.264999"
        id="rect151"
        width="75.935005"
        height="101.335"
-       x="-115.50329"
+       x="-186.63474"
+       y="286.74481"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264999"
+       id="rect10"
+       width="69.849998"
+       height="95.25"
+       x="-75.958893"
+       y="144.79553"
+       transform="rotate(-45)"
+       inkscape:label="inner cards" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect291"
+       width="101.335"
+       height="101.335"
+       x="-103.59564"
        y="141.38922"
        transform="rotate(-45)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       id="rect294"
+       width="35.830002"
+       height="94.25"
+       x="-113.07096"
+       y="144.93172"
+       transform="rotate(-45)"
+       inkscape:label="Inner full" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       id="rect295"
+       width="35.830002"
+       height="94.25"
+       x="-5.1710768"
+       y="144.93172"
+       transform="rotate(-45)"
+       inkscape:label="Inner full" />
+    <rect
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264999"
+       id="rect292"
+       width="15.610001"
+       height="82.285004"
+       x="-96.920349"
+       y="150.91422"
+       transform="rotate(-45)"
+       inkscape:label="Inner pegs" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999999;stroke-dasharray:none"
+       id="rect296"
+       width="35.830002"
+       height="100.6"
+       x="-77.33342"
+       y="141.75671"
+       transform="rotate(-45)"
+       inkscape:label="Inner full" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999999;stroke-dasharray:none"
+       id="rect297"
+       width="35.830002"
+       height="100.6"
+       x="-41.252251"
+       y="141.75671"
+       transform="rotate(-45)"
+       inkscape:label="Inner full" />
+    <rect
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264999"
+       id="rect298"
+       width="15.610001"
+       height="82.285004"
+       x="-1.7347798"
+       y="150.91422"
+       transform="rotate(-45)"
+       inkscape:label="Inner pegs" />
+    <circle
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path298"
+       cx="155.41103"
+       cy="-21.660767"
+       r="5.1544533"
+       transform="rotate(45)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Paths"
+     transform="translate(0.52044606,0.59476314)"
+     style="display:inline">
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect1"
+       width="46.625"
+       height="5.3500018"
+       x="103.1875"
+       y="213.22174"
+       ry="3.175"
+       rx="3.175" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.999995;stroke-opacity:1"
+       id="rect4"
+       width="49.799999"
+       height="8.5249996"
+       x="101.6"
+       y="211.63423"
+       ry="4.7624998"
+       rx="4.7624998" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect5"
+       width="46.625"
+       height="5.3500018"
+       x="103.1875"
+       y="276.02777"
+       ry="3.175"
+       rx="3.175" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="Holes"
-     style="display:inline">
+     inkscape:label="Directions"
+     style="display:inline"
+     transform="rotate(-45,76.095311,156.62482)">
     <g
        id="g611"
-       inkscape:label="Safe">
+       inkscape:label="Arrive"
+       transform="translate(-2.4054129,-0.2379639)">
       <g
          id="g442"
-         transform="rotate(45,-181.54701,130.98226)">
+         transform="rotate(45,-182.33584,132.88664)">
         <g
-           id="g436"
-           transform="translate(6.4822893,-1.2197953)">
+           id="g15"
+           inkscape:label="Triangle">
           <g
-             id="g435"
-             transform="translate(-0.13229084,-12.69171)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse433"
-               cx="-76.332291"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse434"
-               cx="-63.63229"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse435"
-               cx="-50.932289"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
+             id="g436"
+             transform="translate(6.4822893,-1.2197953)">
+            <g
+               id="g435"
+               transform="translate(-0.13229084,-12.69171)">
+              <ellipse
+                 style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+                 id="ellipse433"
+                 cx="-76.332291"
+                 cy="-51.879215"
+                 rx="1.0875"
+                 ry="1.0875015"
+                 inkscape:label="Hole"
+                 transform="scale(-1)" />
+              <ellipse
+                 style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+                 id="ellipse434"
+                 cx="-63.63229"
+                 cy="-51.879215"
+                 rx="1.0875"
+                 ry="1.0875015"
+                 inkscape:label="Hole"
+                 transform="scale(-1)" />
+              <ellipse
+                 style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+                 id="ellipse435"
+                 cx="-50.932289"
+                 cy="-51.879215"
+                 rx="1.0875"
+                 ry="1.0875015"
+                 inkscape:label="Hole"
+                 transform="scale(-1)" />
+            </g>
           </g>
-        </g>
-        <g
-           id="g438"
-           transform="translate(5.473158,-0.14058429)">
           <g
-             id="g437"
-             transform="translate(7.1729182,12.708291)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse436"
-               cx="-63.63229"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse437"
-               cx="-51.040134"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
+             id="g438"
+             transform="translate(5.473158,-0.14058429)">
+            <g
+               id="g437"
+               transform="translate(7.1729182,12.708291)">
+              <ellipse
+                 style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+                 id="ellipse436"
+                 cx="-63.63229"
+                 cy="-38.100002"
+                 rx="1.0875"
+                 ry="1.0875015"
+                 inkscape:label="Hole"
+                 transform="scale(-1)" />
+              <ellipse
+                 style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+                 id="ellipse437"
+                 cx="-51.040134"
+                 cy="-38.100002"
+                 rx="1.0875"
+                 ry="1.0875015"
+                 inkscape:label="Hole"
+                 transform="scale(-1)" />
+            </g>
           </g>
         </g>
         <g
@@ -1114,368 +1786,14 @@
              transform="scale(-1)" />
         </g>
       </g>
-      <g
-         id="g451"
-         transform="rotate(-45,386.45938,-10.563631)">
-        <g
-           id="g445"
-           transform="translate(6.4822893,-1.2197953)">
-          <g
-             id="g444"
-             transform="translate(-0.13229084,-12.69171)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse442"
-               cx="-76.332291"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse443"
-               cx="-63.63229"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse444"
-               cx="-50.932289"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g447"
-           transform="translate(5.473158,-0.14058429)">
-          <g
-             id="g446"
-             transform="translate(7.1729182,12.708291)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse445"
-               cx="-63.63229"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse446"
-               cx="-51.040134"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g450"
-           transform="translate(0,-1.219794)">
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse447"
-             cx="-63.63229"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse448"
-             cx="-50.932289"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse449"
-             cx="-76.332291"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse450"
-             cx="-89.032288"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-        </g>
-      </g>
-      <g
-         id="g476"
-         transform="rotate(-135,147.95246,46.583898)">
-        <g
-           id="g454"
-           transform="translate(6.4822893,-1.2197953)">
-          <g
-             id="g453"
-             transform="translate(-0.13229084,-12.69171)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse451"
-               cx="-76.332291"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse452"
-               cx="-63.63229"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse453"
-               cx="-50.932289"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g472"
-           transform="translate(5.473158,-0.14058429)">
-          <g
-             id="g471"
-             transform="translate(7.1729182,12.708291)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse470"
-               cx="-63.63229"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse471"
-               cx="-51.040134"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g475"
-           transform="translate(0,-1.219794)">
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse472"
-             cx="-63.63229"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse473"
-             cx="-50.932289"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse474"
-             cx="-76.332291"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse475"
-             cx="-89.032288"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-        </g>
-      </g>
-      <g
-         id="g485"
-         transform="rotate(135,49.162122,70.256207)">
-        <g
-           id="g479"
-           transform="translate(6.4822893,-1.2197953)">
-          <g
-             id="g478"
-             transform="translate(-0.13229084,-12.69171)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse476"
-               cx="-76.332291"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse477"
-               cx="-63.63229"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse478"
-               cx="-50.932289"
-               cy="-51.879215"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g481"
-           transform="translate(5.473158,-0.14058429)">
-          <g
-             id="g480"
-             transform="translate(7.1729182,12.708291)">
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse479"
-               cx="-63.63229"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-            <ellipse
-               style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-               id="ellipse480"
-               cx="-51.040134"
-               cy="-38.100002"
-               rx="1.0875"
-               ry="1.0875015"
-               inkscape:label="Hole"
-               transform="scale(-1)" />
-          </g>
-        </g>
-        <g
-           id="g484"
-           transform="translate(0,-1.219794)">
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse481"
-             cx="-63.63229"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse482"
-             cx="-50.932289"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse483"
-             cx="-76.332291"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-          <ellipse
-             style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-             id="ellipse484"
-             cx="-89.032288"
-             cy="-26.487505"
-             rx="1.0875"
-             ry="1.0875015"
-             inkscape:label="Hole"
-             transform="scale(-1)" />
-        </g>
-      </g>
     </g>
     <g
        id="g610"
-       inkscape:label="Home">
-      <g
-         id="g488"
-         transform="rotate(-45,107.55141,105.10856)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse485"
-           cx="-63.63229"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse486"
-           cx="-50.932289"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse487"
-           cx="-76.332291"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse488"
-           cx="-89.032288"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-      </g>
+       inkscape:label="Leave">
       <g
          id="g492"
-         transform="rotate(45,-257.61398,99.122895)">
+         transform="rotate(45,-257.59247,99.070949)"
+         style="display:inline">
         <ellipse
            style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
            id="ellipse489"
@@ -1513,615 +1831,59 @@
            inkscape:label="Hole"
            transform="scale(-1)" />
       </g>
-      <g
-         id="g496"
-         transform="rotate(135,96.994876,185.83356)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse493"
-           cx="-63.63229"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse494"
-           cx="-50.932289"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse495"
-           cx="-76.332291"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse496"
-           cx="-89.032288"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-      </g>
-      <g
-         id="g500"
-         transform="rotate(-135,159.64735,18.397901)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse497"
-           cx="-63.63229"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse498"
-           cx="-50.932289"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse499"
-           cx="-76.332291"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse500"
-           cx="-89.032288"
-           cy="-26.487505"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="scale(-1)" />
-      </g>
     </g>
-    <g
-       id="g609"
-       inkscape:label="Perimeter">
-      <g
-         id="g561"
-         transform="translate(6.35,6.085411)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse501"
-           cx="127.13229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse502"
-           cx="38.232292"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse503"
-           cx="139.83229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse504"
-           cx="50.932289"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse505"
-           cx="152.53229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse506"
-           cx="63.63229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse507"
-           cx="165.23228"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse508"
-           cx="76.332291"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse509"
-           cx="177.93228"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse510"
-           cx="89.032288"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse511"
-           cx="190.63229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse512"
-           cx="101.73229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse513"
-           cx="203.33229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse514"
-           cx="114.43229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse515"
-           cx="216.03229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse516"
-           cx="25.532291"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-      </g>
-      <g
-         id="g593"
-         transform="translate(-6.217701,-6.35)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse561"
-           cx="190.50882"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse562"
-           cx="101.48534"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse563"
-           cx="203.22646"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse564"
-           cx="114.20299"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse565"
-           cx="215.94409"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse566"
-           cx="126.92062"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse567"
-           cx="228.66173"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse568"
-           cx="139.63826"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse569"
-           cx="241.37938"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse570"
-           cx="152.3559"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse571"
-           cx="254.09702"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse572"
-           cx="165.07355"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse573"
-           cx="266.81464"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse574"
-           cx="177.79118"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-      </g>
-      <g
-         id="g592"
-         transform="translate(6.35,196.72829)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse577"
-           cx="127.13229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse578"
-           cx="38.232292"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse579"
-           cx="139.83229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse580"
-           cx="50.932289"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse581"
-           cx="152.53229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse582"
-           cx="63.63229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse583"
-           cx="165.23228"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse584"
-           cx="76.332291"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse585"
-           cx="177.93228"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse586"
-           cx="89.032288"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse587"
-           cx="190.63229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse588"
-           cx="101.73229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse589"
-           cx="203.33229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse590"
-           cx="114.43229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse591"
-           cx="216.03229"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse592"
-           cx="25.532291"
-           cy="76.200005"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole" />
-      </g>
-      <g
-         id="g606"
-         transform="translate(-196.7177,-6.35)">
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse593"
-           cx="190.50882"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse594"
-           cx="101.48534"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse595"
-           cx="203.22646"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse596"
-           cx="114.20299"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse597"
-           cx="215.94409"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse598"
-           cx="126.92062"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse599"
-           cx="228.66173"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse600"
-           cx="139.63826"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse601"
-           cx="241.37938"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse602"
-           cx="152.3559"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse603"
-           cx="254.09702"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse604"
-           cx="165.07355"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse605"
-           cx="266.81464"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-        <ellipse
-           style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse606"
-           cx="177.79118"
-           cy="-228.59999"
-           rx="1.0875"
-           ry="1.0875015"
-           inkscape:label="Hole"
-           transform="rotate(90)" />
-      </g>
-    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84.56825,360.46479 4.750268,-9.17048 -9.170467,4.75027 z"
+       id="path5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.34168,378.23822 4.75027,-9.17048 -9.170483,4.75027 z"
+       id="path6"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 108.54462,332.06822 93.808653,346.80419"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 126.31804,349.84164 -14.73596,14.73597"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 35.027094,275.37438 -3.125559,-9.84346 -3.125554,9.84345 z"
+       id="path10"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-y="-0.63188473"
+       inkscape:transform-center-x="0.63188299" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.40444,275.53792 -3.125566,-9.84347 -3.125554,9.84347 z"
+       id="path11"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="0.51516336"
+       inkscape:transform-center-y="-0.53935095" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 49.627041,251.73906 -0.471387,-10.317 -5.566723,8.69909 z"
+       id="path147"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 66.349976,250.48124 10.317,0.47139 -8.69909,5.56672 z"
+       id="path148"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 73.961727,272.90608 -9.17048,4.75027 4.75027,-9.17047 z"
+       id="path149"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.508;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 162.8936,273.39205 -9.17048,4.75027 4.75027,-9.17047 z"
+       id="path151"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -6478,5 +6240,597 @@
            id="path134-2" />
       </g>
     </g>
+  </g>
+  <g
+     id="g269"
+     inkscape:label="Scratch Perimeter"
+     style="display:none"
+     transform="translate(-0.11184533,-42.234089)">
+    <g
+       id="g175"
+       transform="translate(6.35,6.085411)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse160"
+         cx="127.13229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse161"
+         cx="38.232292"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse162"
+         cx="139.83229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse163"
+         cx="50.932289"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse164"
+         cx="152.53229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse165"
+         cx="63.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse166"
+         cx="165.23228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse167"
+         cx="76.332291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse168"
+         cx="177.93228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse169"
+         cx="89.032288"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse170"
+         cx="190.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse171"
+         cx="101.73229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse172"
+         cx="203.33229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse173"
+         cx="114.43229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse174"
+         cx="216.03229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse175"
+         cx="25.532291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+    </g>
+    <g
+       id="g238"
+       transform="translate(-6.217701,-6.35)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse176"
+         cx="190.50882"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse177"
+         cx="101.48534"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse178"
+         cx="203.22646"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse179"
+         cx="114.20299"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse180"
+         cx="215.94409"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse181"
+         cx="126.92062"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse182"
+         cx="228.66173"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse183"
+         cx="139.63826"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse233"
+         cx="241.37938"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse234"
+         cx="152.3559"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse235"
+         cx="254.09702"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse236"
+         cx="165.07355"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse237"
+         cx="266.81464"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse238"
+         cx="177.79118"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+    </g>
+    <g
+       id="g254"
+       transform="translate(6.35,196.72829)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse239"
+         cx="127.13229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse240"
+         cx="38.232292"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse241"
+         cx="139.83229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse242"
+         cx="50.932289"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse243"
+         cx="152.53229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse244"
+         cx="63.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse245"
+         cx="165.23228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse246"
+         cx="76.332291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse247"
+         cx="177.93228"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse248"
+         cx="89.032288"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse249"
+         cx="190.63229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse250"
+         cx="101.73229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse251"
+         cx="203.33229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse252"
+         cx="114.43229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse253"
+         cx="216.03229"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse254"
+         cx="25.532291"
+         cy="76.200005"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole" />
+    </g>
+    <g
+       id="g268"
+       transform="translate(-196.7177,-6.35)">
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse255"
+         cx="190.50882"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse256"
+         cx="101.48534"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse257"
+         cx="203.22646"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse258"
+         cx="114.20299"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse259"
+         cx="215.94409"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse260"
+         cx="126.92062"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse261"
+         cx="228.66173"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse262"
+         cx="139.63826"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse263"
+         cx="241.37938"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse264"
+         cx="152.3559"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse265"
+         cx="254.09702"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse266"
+         cx="165.07355"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse267"
+         cx="266.81464"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+      <ellipse
+         style="display:inline;fill:#000000;stroke:#ff00ff;stroke-width:0.999997;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse268"
+         cx="177.79118"
+         cy="-228.59999"
+         rx="1.0875"
+         ry="1.0875015"
+         inkscape:label="Hole"
+         transform="rotate(90)" />
+    </g>
+    <g
+       id="g271"
+       inkscape:label="Perimeter outline"
+       transform="translate(0.11184533,42.234089)">
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.508;stroke-dasharray:none;stroke-opacity:1"
+         id="rect269"
+         width="196.342"
+         height="196.342"
+         x="28.849447"
+         y="37.201767"
+         rx="3.175"
+         ry="3.1749997" />
+      <rect
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.508;stroke-dasharray:none;stroke-opacity:1"
+         id="rect270"
+         width="184.912"
+         height="184.912"
+         x="34.564445"
+         y="42.916763"
+         rx="0"
+         ry="0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g287"
+     inkscape:label="Card cradle full rectangle"
+     style="display:none"
+     transform="rotate(-45,81.151178,125.5891)">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264999"
+       id="rect283"
+       width="69.849998"
+       height="95.25"
+       x="-39.495396"
+       y="144.79553"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264999"
+       id="rect284"
+       width="69.849998"
+       height="95.25"
+       x="-109.6104"
+       y="144.79553"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect285"
+       width="75.935005"
+       height="101.335"
+       x="-42.843761"
+       y="141.38922"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect286"
+       width="75.935005"
+       height="101.335"
+       x="-115.50329"
+       y="141.38922"
+       transform="rotate(-45)" />
   </g>
 </svg>
