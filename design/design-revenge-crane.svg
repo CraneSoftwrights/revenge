@@ -32,7 +32,7 @@
      inkscape:window-x="1921"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g528"
+     inkscape:current-layer="g446"
      showgrid="true"
      showguides="true">
     <inkscape:grid
@@ -126,7 +126,7 @@
        xlink:href="#pattern9"
        preserveAspectRatio="xMidYMid"
        id="pattern37"
-       patternTransform="scale(0.2)"
+       patternTransform="scale(0.3)"
        x="0"
        y="0" />
     <pattern
@@ -134,7 +134,7 @@
        xlink:href="#halftones"
        preserveAspectRatio="xMidYMid"
        id="pattern36"
-       patternTransform="scale(0.2)"
+       patternTransform="scale(0.3)"
        x="0"
        y="0" />
     <pattern
@@ -166,7 +166,7 @@
        xlink:href="#pattern9"
        preserveAspectRatio="xMidYMid"
        id="pattern10"
-       patternTransform="scale(0.2)"
+       patternTransform="scale(0.3)"
        x="0"
        y="0" />
     <pattern
