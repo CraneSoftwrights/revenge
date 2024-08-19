@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
-     inkscape:zoom="0.86875178"
-     inkscape:cx="451.79764"
-     inkscape:cy="469.63933"
+     inkscape:zoom="0.86875004"
+     inkscape:cx="479.99998"
+     inkscape:cy="478.8489"
      inkscape:window-width="1824"
      inkscape:window-height="1027"
      inkscape:window-x="1921"
@@ -34,7 +34,7 @@
      inkscape:window-maximized="0"
      showgrid="true"
      showguides="true"
-     inkscape:current-layer="g95"><inkscape:grid
+     inkscape:current-layer="g486"><inkscape:grid
        id="grid7"
        units="in"
        originx="0"
@@ -2651,7 +2651,8 @@
      style="display:none"><g
        id="g556"
        style="display:inline"
-       transform="translate(0,-51.16557)"><g
+       transform="translate(0,-51.16557)"
+       inkscape:label="Group"><g
          id="g272"
          inkscape:label="Perimeter outline"
          transform="rotate(-45,117.11966,131.27172)"
@@ -8760,29 +8761,76 @@
      inkscape:label="---------- Assemblies ----------"
      style="display:none"><g
        inkscape:groupmode="layer"
+       id="layer28"
+       inkscape:label="192435678-20x30-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 L3-10x10 L5678-10x10 L5678-10x10 #Tiling-20x30" /><g
+       inkscape:groupmode="layer"
+       id="layer27"
+       inkscape:label="5678-20x10-collage =# L5678-10x10 L5678-10x10 #Tiling-20x10" /><g
+       inkscape:groupmode="layer"
+       id="layer26"
+       inkscape:label="5678-20x20-collage =# L5678-10x10 L5678-10x10 L5678-10x10 L5678-10x10 #Tiling-20x20" /><g
+       inkscape:groupmode="layer"
+       id="g486"
+       inkscape:label="1924-20x20-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 Tiling-20x20"
+       style="display:none" /><g
+       inkscape:groupmode="layer"
+       id="g481"
+       inkscape:label="Print-10x10 =! Print"
+       style="display:none" /><g
+       inkscape:groupmode="layer"
        id="layer7"
-       inkscape:label="L9-10x10 =&lt; L9"
+       inkscape:label="L9-10x10 = L9"
        style="display:none" /><g
        inkscape:groupmode="layer"
        id="g23"
-       inkscape:label="L5678-10x10 =&lt; L5678"
+       inkscape:label="L5678-10x10 = L5678"
        style="display:none" /><g
        inkscape:groupmode="layer"
        id="g27"
-       inkscape:label="L4-10x10 =&lt; L4"
+       inkscape:label="L4-10x10 = L4"
        style="display:none" /><g
        inkscape:groupmode="layer"
        id="g3"
-       inkscape:label="L3-10x10 =&lt; L3"
+       inkscape:label="L3-10x10 = L3"
        style="display:none" /><g
        inkscape:groupmode="layer"
        id="g5"
-       inkscape:label="L2-10x10 =&lt; L2"
+       inkscape:label="L2-10x10 = L2"
        style="display:none" /><g
        inkscape:groupmode="layer"
        id="g6"
-       inkscape:label="L1-10x10 =&lt; L1"
+       inkscape:label="L1-10x10 = L1"
        style="display:none" /></g><g
+     inkscape:groupmode="layer"
+     id="layer25"
+     inkscape:label="---------- Tiling ----------"><rect
+       style="display:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.00001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect485"
+       width="505.00101"
+       height="759.00153"
+       x="52.197014"
+       y="-252.29156"
+       inkscape:label="Tiling-20x30"
+       transform="translate(-50.712771,253.61729)"
+       sodipodi:insensitive="true" /><rect
+       style="display:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.00001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect484"
+       width="505.00101"
+       height="505.00101"
+       x="52.197014"
+       y="-252.29156"
+       inkscape:label="Tiling-20x20"
+       transform="translate(-50.712771,253.61729)"
+       sodipodi:insensitive="true" /><rect
+       style="display:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.00001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect483"
+       width="505.00101"
+       height="251.00049"
+       x="52.197014"
+       y="-252.29156"
+       inkscape:label="Tiling-20x10"
+       transform="translate(-50.712771,253.61729)"
+       sodipodi:insensitive="true" /></g><g
      id="g555"
      transform="rotate(-90,101.45226,152.16503)"
      inkscape:label="---------- Composition layers in a single orientation --------"
@@ -8792,7 +8840,15 @@
        style="display:none"
        inkscape:groupmode="layer"
        transform="matrix(-1,0,0,1,253.58266,-4.5833334e-6)"
-       sodipodi:insensitive="true"><path
+       sodipodi:insensitive="true"><rect
+         style="display:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.00001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect482"
+         width="251.0005"
+         height="251.00049"
+         x="52.197014"
+         y="1.2910892"
+         inkscape:label="Tiling-10x10"
+         transform="matrix(0,1,1,0,0,0)" /><path
          id="path154"
          style="display:inline;fill:none;stroke:#ff00ff;stroke-width:0.999999"
          inkscape:label="Outside cutting edge"
@@ -8948,7 +9004,15 @@
        inkscape:label="L1:B9 L2:B9 L3:B9 L4:B9 L5678:B9 Outside front cut and alignment"
        style="display:none"
        inkscape:groupmode="layer"
-       sodipodi:insensitive="true"><path
+       sodipodi:insensitive="true"><rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.00001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect481"
+         width="251.0005"
+         height="251.00049"
+         x="52.197014"
+         y="-252.29156"
+         inkscape:label="Tiling-10x10"
+         transform="rotate(90)" /><path
          id="circle276"
          style="display:inline;fill:none;stroke:#ff00ff;stroke-width:0.999999"
          inkscape:label="Outside cutting edge"
@@ -9102,7 +9166,7 @@
            inkscape:label="Alignment hole" /></g></g><g
        inkscape:groupmode="layer"
        id="layer13"
-       inkscape:label="L1:B8 L2:B8 L3:B8 L4:B8 Peg holes"
+       inkscape:label="L1:B8 L2:B8 L3:B8 L4:B8 Print:P8 Peg holes"
        style="display:none"
        sodipodi:insensitive="true"><g
          id="g398"
@@ -10280,7 +10344,7 @@
            inkscape:label="Weight loss" /></g></g><g
        inkscape:groupmode="layer"
        id="layer17"
-       inkscape:label="L4:B2 Raster"
+       inkscape:label="L4:B2 Print:P5 Raster"
        style="display:none"
        sodipodi:insensitive="true"><g
          id="g565"
@@ -12100,7 +12164,7 @@
              y="-54.003056">L</tspan></text></g></g><g
        inkscape:groupmode="layer"
        id="layer19"
-       inkscape:label="L2:B1 Raster + Version"
+       inkscape:label="L2:B1 Print:P4 Raster + Version"
        style="display:none"
        sodipodi:insensitive="true"><g
          id="g1159"
@@ -14632,7 +14696,7 @@
              y="-67.403564">L</tspan></text></g></g><g
        inkscape:groupmode="layer"
        id="layer2"
-       inkscape:label="L1:B3 Raster"
+       inkscape:label="L1:B3 Print:P3 Raster"
        style="display:none"
        sodipodi:insensitive="true"><g
          id="g22"
@@ -14657,7 +14721,7 @@
            transform="rotate(-12.47074)">REVENGE!</text></g></g><g
        inkscape:groupmode="layer"
        id="layer14"
-       inkscape:label="L1:B2 Perimeter"
+       inkscape:label="L1:B2 Print:P2 Perimeter"
        transform="rotate(45,75.789025,156.41998)"
        style="display:none"
        sodipodi:insensitive="true"><g
@@ -15314,7 +15378,7 @@
              inkscape:label="Loon bitmap" /></g></g></g><g
        inkscape:groupmode="layer"
        id="layer12"
-       inkscape:label="L1:B1 Cuts"
+       inkscape:label="L1:B1 Print:P1 Cuts"
        transform="translate(22.310161,10.741468)"
        style="display:none"
        sodipodi:insensitive="true"><g
