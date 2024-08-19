@@ -34,7 +34,7 @@
      inkscape:window-maximized="0"
      showgrid="true"
      showguides="true"
-     inkscape:current-layer="g486"><inkscape:grid
+     inkscape:current-layer="layer30"><inkscape:grid
        id="grid7"
        units="in"
        originx="0"
@@ -8771,8 +8771,14 @@
        inkscape:label="5678-20x20-collage =# L5678-10x10 L5678-10x10 L5678-10x10 L5678-10x10 #Tiling-20x20" /><g
        inkscape:groupmode="layer"
        id="g486"
-       inkscape:label="1924-20x20-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 Tiling-20x20"
+       inkscape:label="1924-20x20-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 #Tiling-20x20"
        style="display:none" /><g
+       inkscape:groupmode="layer"
+       id="layer30"
+       inkscape:label="24-20x10-collage =# L2-10x10 L4-10x10 #Tiling-20x10" /><g
+       inkscape:groupmode="layer"
+       id="layer29"
+       inkscape:label="19-20x10-collage =# L1-10x10 L9-10x10 #Tiling-20x10" /><g
        inkscape:groupmode="layer"
        id="g481"
        inkscape:label="Print-10x10 =! Print"
