@@ -11,6 +11,9 @@ bash build/design2burn.sh 2>&1 | grep -v org.inkscape | grep -v "^\s*$"
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
-cp burn/png/Print-10x10-revenge-crane.png shared/revenge-crane.png 
+if [ -f burn/png/Print-10x10-revenge-crane.png ]
+then
+cp burn/png/Print-10x10-revenge-crane.png shared/revenge-crane.png
+fi 
 
 popd >/dev/null
