@@ -7,7 +7,7 @@ errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
 # The error output is filtered for Inkscape warnings that appear innocuous
-bash build/design2burn.sh 2>&1 | grep -v org.inkscape | grep -v "^\s*$"
+bash build/design2burn.sh 2>&1 | grep --line-buffered -v org.inkscape | grep --line-buffered -v "^\s*$" | grep --line-buffered -v "Could not parse:"
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
