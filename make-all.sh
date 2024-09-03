@@ -13,7 +13,7 @@ if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
 if [ -f burn/png/Print-10x10-revenge-crane.png ]
 then
-cp burn/png/Print-10x10-revenge-crane.png shared/revenge-crane.png
+cp burn/png/Board/Print-10x10-revenge-crane.png shared/revenge-crane.png
 fi 
 
 popd >/dev/null
