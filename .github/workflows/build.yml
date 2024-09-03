@@ -1,0 +1,155 @@
+name: Build artefacts and release on every push
+
+on: 
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install required fonts
+        run: |
+          set -e
+          mkdir -p ~/.fonts
+          wget -q https://noto-website-2.storage.googleapis.com/pkgs/NotoSans-hinted.zip -O /tmp/NotoSans-hinted.zip || { echo 'Failed to download Noto Sans'; exit 1; }
+          wget -q https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-hinted.zip -O /tmp/NotoSerif-hinted.zip || { echo 'Failed to download Noto Serif'; exit 1; }
+          
+          unzip -o -q /tmp/NotoSans-hinted.zip -d ~/.fonts || { echo 'Failed to unzip Noto Sans'; exit 1; }
+          unzip -o -q /tmp/NotoSerif-hinted.zip -d ~/.fonts || { echo 'Failed to unzip Noto Serif'; exit 1; }
+          fc-cache -f -v
+          ls ~/.fonts/Noto*
+
+      - name: Install Inkscape
+        run: |
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+          inkscape --version
+          
+      - name: Create subdirectories
+        run: |
+          mkdir -p utilities/xslstyle
+          mkdir -p utilities/saxon9he
+          mkdir -p utilities/designSVG2burnFiles
+  
+      - name: Fetch xslstyle.xsl from CraneSoftwrights
+        run: |
+          git clone --depth 1 https://github.com/CraneSoftwrights/xslstyle.git temp-repo
+          cp -r temp-repo/* utilities/xslstyle
+          rm -rf temp-repo
+  
+      - name: Fetch designSVG2burnFiles.xsl from CraneSoftwrights
+        run: |
+          git clone --depth 1 https://github.com/CraneSoftwrights/designSVG2burnFiles.git temp-repo
+          cp -r temp-repo/* utilities/designSVG2burnFiles
+          rm -rf temp-repo
+  
+      - name: Fetch saxon9he.jar
+        run: |
+          curl -L -o utilities/saxon9he/saxon9he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar
+        
+      - name: Set environment variables
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMz
+          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+                    
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Run make-all.sh script
+        run: |
+          bash make-all.sh
+
+      - name: Create action result ZIP
+        run: |
+          echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
+          echo BRANCH_NAME=${{ env.BRANCH_NAME }}
+          mkdir   download
+          # compose README file
+          cp      shared/outputs-readme.txt \
+                  download/README-crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          echo  >>download/README-crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          # package up everything except README
+          zip -r         download/crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
+          # add README without the directory prefix
+          cd             download
+          zip -r                  crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip \
+                           README-crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          # remove the README file in order to test the ZIP
+          rm               README-crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          # test the ZIP by unzipping it
+          unzip                   crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+                  
+      - name: Upload artefacts for action 
+        uses: actions/upload-artifact@v4
+        with:
+          name: crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          path: |
+            download/*
+            !download/crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Update artifacts from push action"
+            NEW_COMMIT_SHA=$(git rev-parse HEAD)
+            echo "NEW_COMMIT_SHA=$NEW_COMMIT_SHA" >> $GITHUB_ENV
+            git push
+          else
+            echo "No changes to commit"
+            NEW_COMMIT_SHA=""
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Wait for push to complete
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_COMMIT_SHA: ${{ env.NEW_COMMIT_SHA }}
+        run: |
+          OWNER=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)
+          REPO=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)
+          if [ -n "$NEW_COMMIT_SHA" ]; then
+            for i in {2..10}; do
+              sleep $((2**i))
+              if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
+                echo "Push completed"
+                break
+              else
+                echo "Push not yet completed. Retrying in $((2**i)) seconds..."
+              fi
+            done
+          else
+            echo "No new commit was created. Skipping wait for push."
+          fi
+          
+      - name: Install GitHub CLI
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        run: sudo apt-get install -y gh
+
+      - name: Create GitHub Release
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create the release
+          gh release create "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --title "Release ${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --notes "Automated release created by GitHub Actions."
+
+      - name: Attach artefacts to the release
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" download/crane-revenge-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
