@@ -1,3 +1,5 @@
+2024-09-05 14:47z
+
 Missing a definition for the reference: L9-10x10 at 
   "svg1"{svg1}/
     "---------- Collages ----------"{layer31}/
@@ -16,3 +18,6 @@ Error on line 278 column 80 of designSVG2burnFiles.xsl:
   In template rule with match="document-node()/element(Q{http://www.w3.org/2000/svg}svg)" on line 178 of designSVG2burnFiles.xsl
      invoked by built-in template rule (text-only)
 Processing terminated by xsl:message at line 278 in designSVG2burnFiles.xsl
+
+Branch: ken-work
+Release: 20240905-1447z
