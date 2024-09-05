@@ -1,0 +1,18 @@
+Missing a definition for the reference: L9-10x10 at 
+  "svg1"{svg1}/
+    "---------- Collages ----------"{layer31}/
+      "192435-20x30-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 L3-10x10 L5-10x10 #Tiling-20x30"{layer28}
+Missing a definition for the reference: L9-10x10 at 
+  "svg1"{svg1}/
+    "---------- Collages ----------"{layer31}/
+      "1924-20x20-collage =# L1-10x10 L9-10x10 L2-10x10 L4-10x10 #Tiling-20x20"{g486}
+Missing a definition for the reference: L9-10x10 at 
+  "svg1"{svg1}/
+    "---------- Collages ----------"{layer31}/
+      "19-20x10-collage =# L1-10x10 L9-10x10 #Tiling-20x10"{layer29}
+3 reports to be fixed
+Error on line 278 column 80 of designSVG2burnFiles.xsl:
+  XTMM9000: Processing terminated by xsl:message at line 278 in designSVG2burnFiles.xsl
+  In template rule with match="document-node()/element(Q{http://www.w3.org/2000/svg}svg)" on line 178 of designSVG2burnFiles.xsl
+     invoked by built-in template rule (text-only)
+Processing terminated by xsl:message at line 278 in designSVG2burnFiles.xsl
