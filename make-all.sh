@@ -2,6 +2,9 @@
 
 exec > >(tee make-all.log.txt) 2>&1
 
+date -u +"%Y-%m-%d %H:%Mz"
+echo
+
 DP0=$( cd "$(dirname "$0")" ; pwd -P )
 
 pushd "$DP0" >/dev/null

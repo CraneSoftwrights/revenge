@@ -70,7 +70,11 @@ jobs:
 
       - name: Run make-all.sh script
         run: |
+          echo > make-all.log.txt
           bash make-all.sh
+          echo >> make-all.log.txt
+          echo Branch:  $BRANCH_NAME >> make-all.log.txt
+          echo Release: $RELEASE_VERSION >> make-all.log.txt
 
       - name: Create action result ZIP
         run: |
