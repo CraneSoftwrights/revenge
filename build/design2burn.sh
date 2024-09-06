@@ -5,7 +5,7 @@ ss=stylesheet-not-found-designSVG2burnFiles.xsl
 if [ -f ../../designSVG2burnFiles/designSVG2burnFiles.xsl ]; then ss=../../designSVG2burnFiles/designSVG2burnFiles.xsl ; fi
 if [ -f ../utilities/designSVG2burnFiles/designSVG2burnFiles.xsl ]; then ss=../utilities/designSVG2burnFiles/designSVG2burnFiles.xsl ; fi
 
-java -jar ../utilities/saxon9he/saxon9he.jar -s:../design/design-revenge-crane.svg -xsl:$ss -o:svg2svgpdfpng.sh path2svg=svg/ path2png=png/ path2pdf=pdf/ name-suffix=-revenge-crane minimum-stroke-width=.003in cut-colour=ff00ff
+java -jar ../utilities/saxon9he/saxon9he.jar -s:../design/design-revenge-crane.svg -xsl:$ss -o:svg2svgpdfpng.sh path2svg=svg/ path2png=png/ path2pdf=pdf/ name-suffix=-revenge-crane minimum-stroke-width=.003in cut-colour=ff00ff cut-width=.001in
 
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
