@@ -1,6 +1,9 @@
 # Ignore Mac system files
 **/.DS_Store
 
+# Dynamic reporting files
+make-all.log.txt
+
 # Intermediate files
 burn/svg2svgpdfpng.*
 burn/svg/*
