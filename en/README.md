@@ -205,11 +205,11 @@ Each card has one or more plays, and each play involves one or more moves.
     <td valign="top" align="right"><img src="../shared/k-right.png" width="189" height="66"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/7-left.png" width="197.25" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/7-left.png" width="197.25" height="64.5"/><br>                                                             </td>
     <td valign="top" align="left">7: Seven separate moves of any peg one forward; Each move of one is considered a complete move; The game is permitted to end on any of the seven moves and does not require all seven moves to be played</td>
     <td> </td>
     <td valign="top" align="left">Joker: Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td>
-    <td valign="top" align="right"><img src="../shared/joker-right.png" width="156.75" height="125.25"/></td>
+    <td valign="top" align="right"><img src="../shared/joker-right.png" width="156.75" height="125.25"/><br>                                                             </td>
   </tr>
 </table>
 
