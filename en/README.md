@@ -132,15 +132,14 @@ Moreover, pegs in the safe zone and end zone block one's pegs from stepping over
 
 Each card has one or more plays, and each play involves one or more moves.
 
-<table>
+<table style="table-layout: fixed; width: 100%;">
   <col width="25%"/>
   <col width="23%"/>
   <col width="4%"/>
   <col width="23%"/>
   <col width="25%"/>
   <tr>
-    <td valign="top" align="left"><img src="../shared/a-left.png" style="width:262px;max-width:262px;height:86px;max-height:86px;"/></td><td valign="top" align="left">Ace: Either move one peg one forward, or move a peg out of the start zone to the start point </td><td> </td><td valign="top" align="left">8: Move one peg eight forward </td><td valign="top" align="right"><img src="../shared/8-right.png" style="width:156px;max-width:156px;height:86px;max-height:86px;"/>
-  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/a-left.png" style="width:262px;max-width:262px;height:86px;max-height:86px;"/></td><td valign="top" align="left">Ace: Either move one peg one forward, or move a peg out of the start zone to the start point </td><td> </td><td valign="top" align="left">8: Move one peg eight forward </td><td valign="top" align="right"><img src="../shared/8-right.png" style="width:156px;max-width:156px;height:86px;max-height:86px;"/><br>                    </td></tr><tr>
     <td valign="top" align="left"><img src="../shared/2-left.png" style="width:261px;max-width:261px;height:86px;max-height:86px;"/></td><td valign="top" align="left">2: Move one peg two forward and if that does not win the game then play another card from the player's hand </td><td> </td><td valign="top" align="left">9: Move one peg nine forward </td><td valign="top" align="right"><img src="../shared/9-right.png" style="width:156px;max-width:156px;height:86px;max-height:86px;"/>
   </td></tr><tr>
     <td valign="top" align="left"><img src="../shared/3-left.png" style="width:158px;max-width:158px;height:86px;max-height:86px;"/></td><td valign="top" align="left">3: Move one peg three forward</td><td> </td><td valign="top" align="left">10: Move one peg either forward ten or backward one</td><td valign="top" align="right"><img src="../shared/10-right.png" style="width:282px;max-width:282px;height:86px;max-height:86px;"/>
