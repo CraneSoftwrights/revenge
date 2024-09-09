@@ -163,53 +163,53 @@ Each card has one or more plays, and each play involves one or more moves.
   <col width="23%"/>
   <col width="25%"/>
   <tr>
-    <td valign="top" align="left"><img src="../shared/a-left.png" width="196.5" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/a-left.png" width="157.2" height="51.6"/></td>
     <td valign="top" align="left">Ace: Either move one peg one forward, or move a peg out of the start zone to the start point </td>
     <td> </td>
     <td valign="top" align="left">8: Move one peg eight forward </td>
-    <td valign="top" align="right"><img src="../shared/8-right.png" width="117" height="64.5"/></td>
+    <td valign="top" align="right"><img src="../shared/8-right.png" width="93.6" height="51.6"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/2-left.png" width="195.75" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/2-left.png" width="156.6" height="51.6"/></td>
     <td valign="top" align="left">2: Move one peg two forward and if that does not win the game then play another card from the player's hand </td>
     <td> </td>
     <td valign="top" align="left">9: Move one peg nine forward </td>
-    <td valign="top" align="right"><img src="../shared/9-right.png" width="117" height="64.5"/></td>
+    <td valign="top" align="right"><img src="../shared/9-right.png" width="93.6" height="51.6"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/3-left.png" width="118.5" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/3-left.png" width="95.1" height="51.6"/></td>
     <td valign="top" align="left">3: Move one peg three forward</td>
     <td> </td>
     <td valign="top" align="left">10: Move one peg either forward ten or backward one</td>
-    <td valign="top" align="right"><img src="../shared/10-right.png" width="211.5" height="64.5"/></td>
+    <td valign="top" align="right"><img src="../shared/10-right.png" width="169.2" height="51.6"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/4-left.png" width="117" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/4-left.png" width="93.6" height="51.6"/></td>
     <td valign="top" align="left">4: Move one peg four backward</td>
     <td> </td>
     <td valign="top" align="left">Jack: Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td>
-    <td valign="top" align="right"><img src="../shared/j-right.png" width="126" height="61.5"/></td>
+    <td valign="top" align="right"><img src="../shared/j-right.png" width="100.8" height="49.2"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/5-left.png" width="118.5" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/5-left.png" width="95.1" height="51.6"/></td>
     <td valign="top" align="left">5: Move one peg five forward</td>
     <td> </td>
     <td valign="top" align="left">Queen: Move one peg twelve forward</td>
-    <td valign="top" align="right"><img src="../shared/q-right.png" width="117" height="64.5"/></td>
+    <td valign="top" align="right"><img src="../shared/q-right.png" width="93.6" height="51.6"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/6-left.png" width="118.5" height="64.5"/></td>
+    <td valign="top" align="left"><img src="../shared/6-left.png" width="95.1" height="51.6"/></td>
     <td valign="top" align="left">6: Move one peg six forward</td>
     <td> </td>
     <td valign="top" align="left">King: Either move a peg out of the start zone to the start point, or move a peg thirteen forward</td>
-    <td valign="top" align="right"><img src="../shared/k-right.png" width="189" height="66"/></td>
+    <td valign="top" align="right"><img src="../shared/k-right.png" width="113.4" height="52.8"/></td>
   </tr>
   <tr>
-    <td valign="top" align="left"><img src="../shared/7-left.png" width="197.25" height="64.5"/><br>                                                             </td>
+    <td valign="top" align="left"><img src="../shared/7-left.png" width="157.95" height="51.6"/><br>                                              </td>
     <td valign="top" align="left">7: Seven separate moves of any peg one forward; Each move of one is considered a complete move; The game is permitted to end on any of the seven moves and does not require all seven moves to be played</td>
     <td> </td>
     <td valign="top" align="left">Joker: Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td>
-    <td valign="top" align="right"><img src="../shared/joker-right.png" width="156.75" height="125.25"/><br>                                                             </td>
+    <td valign="top" align="right"><img src="../shared/joker-right.png" width="125.4" height="100.5"/><br>                                              </td>
   </tr>
 </table>
 
