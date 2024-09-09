@@ -145,7 +145,7 @@ Each card has one or more plays, and each play involves one or more moves.
   </td></tr><tr>
     <td valign="top" align="left"><img src="../shared/3-left.png" style="width:158px;height:86px"/></td><td valign="top" align="left">3: Move one peg three forward</td><td> </td><td valign="top" align="left">10: Move one peg either forward ten or backward one</td><td valign="top" align="right"><img src="../shared/10-right.png" style="width:282px;height:86px"/>
   </td></tr><tr>
-    <td valign="top" align="left"><img src="../shared/4-left.png" style="width:156px;height:86px"/></td><td valign="top" align="left">4: Move one peg four backward</td><td> </td><td valign="top" align="left">Jack: Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td><td valign="top" align="right"><img src="../shared/j-right.png" style="width:168px;height:82 px"/>
+    <td valign="top" align="left"><img src="../shared/4-left.png" style="width:156px;height:86px"/></td><td valign="top" align="left">4: Move one peg four backward</td><td> </td><td valign="top" align="left">Jack: Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td><td valign="top" align="right"><img src="../shared/j-right.png" style="width:168px;height:82px"/>
   </td></tr><tr>
     <td valign="top" align="left"><img src="../shared/5-left.png" style="width:158px;height:86px"/></td><td valign="top" align="left">5: Move one peg five forward</td><td> </td><td valign="top" align="left">Queen: Move one peg twelve foward</td><td valign="top" align="right"><img src="../shared/q-right.png" style="width:156px;height:86px"/>
   </td></tr><tr>
