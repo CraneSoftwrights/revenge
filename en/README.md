@@ -132,6 +132,7 @@ Moreover, pegs in the safe zone and end zone block one's pegs from stepping over
 
 Each card has one or more plays, and each play involves one or more moves.
 
+<!--
 <table style="table-layout: fixed; width: 100%;">
   <col width="25%"/>
   <col width="23%"/>
@@ -152,6 +153,30 @@ Each card has one or more plays, and each play involves one or more moves.
   </td></tr><tr>
     <td valign="top" align="left"><img src="../shared/7-left.png" style="width:263px;max-width:263px;height:86px;max-height:86px;"/><br>                                                                  </td><td valign="top" align="left">7: Seven separate moves of any peg one forward; Each move of one is considered a complete move; The game is permitted to end on any of the seven moves and does not require all seven moves to be played</td><td> </td><td valign="top" align="left">Joker: Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td><td valign="top" align="right"><img src="../shared/joker-right.png" style="width:209px;max-width:209px;height:167px;max-height:167px;"/><br>                                                                  </td></tr>
 </table>
+
+-->
+
+<table style="table-layout: fixed; width: 100%;">
+  <col width="25%"/>
+  <col width="23%"/>
+  <col width="4%"/>
+  <col width="23%"/>
+  <col width="25%"/>
+  <tr>
+    <td valign="top" align="left"><img src="../shared/a-left.png" style="width:196.5px;max-width:196.5px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">Ace: Either move one peg one forward, or move a peg out of the start zone to the start point </td><td> </td><td valign="top" align="left">8: Move one peg eight forward </td><td valign="top" align="right"><img src="../shared/8-right.png" style="width:117px;max-width:117px;height:64.5px;max-height:64.5px;"/></td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/2-left.png" style="width:195.75px;max-width:195.75px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">2: Move one peg two forward and if that does not win the game then play another card from the player's hand </td><td> </td><td valign="top" align="left">9: Move one peg nine forward </td><td valign="top" align="right"><img src="../shared/9-right.png" style="width:117px;max-width:117px;height:64.5px;max-height:64.5px;"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/3-left.png" style="width:118.5px;max-width:118.5px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">3: Move one peg three forward</td><td> </td><td valign="top" align="left">10: Move one peg either forward ten or backward one</td><td valign="top" align="right"><img src="../shared/10-right.png" style="width:211.5px;max-width:211.5px;height:64.5px;max-height:64.5px;"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/4-left.png" style="width:117px;max-width:117px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">4: Move one peg four backward</td><td> </td><td valign="top" align="left">Jack: Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td><td valign="top" align="right"><img src="../shared/j-right.png" style="width:126px;max-width:126px;height:61.5px;max-height:61.5px;"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/5-left.png" style="width:118.5px;max-width:118.5px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">5: Move one peg five forward</td><td> </td><td valign="top" align="left">Queen: Move one peg twelve foward</td><td valign="top" align="right"><img src="../shared/q-right.png" style="width:117px;max-width:117px;height:64.5px;max-height:64.5px;"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/6-left.png" style="width:118.5px;max-width:118.5px;height:64.5px;max-height:64.5px;"/></td><td valign="top" align="left">6: Move one peg six forward</td><td> </td><td valign="top" align="left">King: Either move a peg out of the start zone to the start point, or move a peg thirteen forward</td><td valign="top" align="right"><img src="../shared/k-right.png" style="width:189px;max-width:189px;height:66px;max-height:66px;"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/7-left.png" style="width:197.25px;max-width:197.25px;height:64.5px;max-height:64.5px;"/><br>                                                                  </td><td valign="top" align="left">7: Seven separate moves of any peg one forward; Each move of one is considered a complete move; The game is permitted to end on any of the seven moves and does not require all seven moves to be played</td><td> </td><td valign="top" align="left">Joker: Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td><td valign="top" align="right"><img src="../shared/joker-right.png" style="width:156.75px;max-width:156.75px;height:125.25px;max-height:125.25px;"/><br>                                                                  </td></tr>
+</table>
+
 
 ### 7 The characters
 
