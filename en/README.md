@@ -202,7 +202,7 @@ Each card has one or more plays, and each play involves one or more moves.
     <td valign="top" align="left">6: Move one peg six forward</td>
     <td> </td>
     <td valign="top" align="left">King: Either move a peg out of the start zone to the start point, or move a peg thirteen forward</td>
-    <td valign="top" align="right"><img src="../shared/k-right.png" width="113.4" height="52.8"/></td>
+    <td valign="top" align="right"><img src="../shared/k-right.png" width="151.2" height="52.8"/></td>
   </tr>
   <tr>
     <td valign="top" align="left"><img src="../shared/7-left.png" width="157.95" height="51.6"/><br>                                              </td>
