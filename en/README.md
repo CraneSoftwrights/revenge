@@ -133,11 +133,6 @@ Moreover, pegs in the safe zone and end zone block one's pegs from stepping over
 Each card has one or more plays, and each play involves one or more moves.
 
 <table>
-  <col width="25%"/>
-  <col width="20%"/>
-  <col width="10%"/>
-  <col width="20%"/>
-  <col width="25%"/>
   <tr>
     <td valign="top" align="left"><img src="../shared/a-left.png" style="width:262px;height:86px"/></td><td valign="top" align="left">Ace: Either move one peg one forward, or move a peg out of the start zone to the start point </td><td> </td><td valign="top" align="left">8: Move one peg eight forward </td><td valign="top" align="right"><img src="../shared/8-right.png" style="width:156px;height:86px"/>
   </td></tr><tr>
