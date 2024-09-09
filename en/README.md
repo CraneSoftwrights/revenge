@@ -1,17 +1,20 @@
 # A peg and card game of revenge
 
-Copyright © Crane Softwrights Ltd.  
+Copyright © Crane Softwrights Ltd. ([copyright details](../COPYRIGHT.md))  
 Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/CraneSoftwrights/revenge)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/revenge/en/README.md.html`](https://cranesoftwrights.github.io/revenge/en/README.md.html)  
 
 ### Table of contents
-- [Introduction](#introduction)
-- [The Board](#the-board)
-- [Extended Play](#extended-mode-play-)
-- [Scoring a game](#scoring-a-game)
-- [Design process](#design-process)
-- [Print, board, and box representations](#print-board-and-box-representations)  
+- [1 Introduction](#1-introduction)
+- [2 The board](#2-the-board)
+- [3 The deal](#3-the-deal)
+- [4 The play](#4-the-play)
+- [5 The win](#5-the-win)
+- [6 The cards](#6-the-cards)
+- [7 The characters](#7-the-characters)
+- [8 Game design process](#8-game-design-process)
+- [9 Print, board, and box representations](#9-print-board-and-box-representations)  
 
 ## 1 Introduction
 
@@ -48,7 +51,7 @@ Note, however, that a peg is not qualified to move if there are insufficient hol
 The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if it is the last move of the play:
 
 - if any of your own pegs are covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
-- if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one step before your safe zone entry point
+- if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one hole before your safe zone entry point
 - should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs are sent back to their start zone
 
 A special note about the play of the "7" card: that dictates seven separate completed plays of one move each and so any number of those plays would qualify for consideration at a sweep zone entry point because each move of one is considered completed.
@@ -81,19 +84,19 @@ A player can take revenge on an opponent by completing their play at a hole occu
 
 When playing a given numbered advance, the holes counted may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play.
 
-## 4.1 The start
+### 4.1 The start
 
 <img src="../shared/start.png" style="height:100px"/>  
 
 A player playing the star moves a peg from their start zone to their start point, provided their start point is not occupied by themselves. If their start point is occupied by an opponent, the player takes revenge on the opponent and sends their peg back to their opponent's start zone.
 
-## 4.2 Revenge!
+### 4.2 Revenge!
 
 <img src="../shared/revenge.png" style="height:100px"/>  
 
 A player playing the exclamation point (or "bang") takes revenge on an opponent by moving one of their pegs from their start zone to the hole in the play zone that is occupied by the opponent. This returns the opponent's peg back to the opponent's start zone. To take revenge in this manner the player's peg must come from their start zone and not from any other of their zones.
 
-## 4.3 The swap
+### 4.3 The swap
 
 <img src="../shared/swap.png" style="height:100px"/>  
 
@@ -107,63 +110,90 @@ The winning player is the first to get all of their pegs into their end zone.
 
 Before the game begins, all players must agree on the rules of filling the end zone.
 
-## 5.1 The easy win
+### 5.1 The easy win
 
-When playing for the easy win, a play is qualified if its very last step reaches the end zone from the safe zone. There is no order on filling the end zone.
+When playing for the easy win, a play is qualified if its very last hole reaches the end zone from the safe zone. There is no order on filling the end zone.
 
-Moreover, any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole. As in the play zone, a play is not qualified if the last step is occupied by another of one's pegs. 
+Moreover, any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole. As in the play zone, a play is not qualified if the last hole is occupied by another of one's pegs. 
 
-## 5.2 The difficult win
+### 5.2 The difficult win
 
 When playing for the difficult win, the holes of the end zone are counted in the play as an extension of the safe zone. Pegs make their way to the left of the end zone and may end up sitting for a while unfinished to the right of unoccupied holes to their left in the end zone.
 
 Moreover, pegs in the safe zone and end zone block one's pegs from stepping over and continuing play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
 
-### 6 The cards
+## 6 The cards
 
-|:---|:---|---|---:|---:|
-|<img src="../shared/a-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/8-right.png" style="height:50px"/>
-|<img src="../shared/2-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/9-right.png" style="height:50px"/>
-|<img src="../shared/3-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/10-right.png" style="height:50px"/>
-|<img src="../shared/4-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/j-right.png" style="height:50px"/>
-|<img src="../shared/5-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/q-right.png" style="height:50px"/>
-|<img src="../shared/6-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/k-right.png" style="height:50px"/>
-|<img src="../shared/7-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/joker-right.png" style="height:100px"/>
+<table>
+  <col width="25%"/>
+  <col width="20%"/>
+  <col width="10%"/>
+  <col width="20%"/>
+  <col width="25%"/>
+  <tr>
+    <td valign="top" align="left"><img src="../shared/a-left.png" style="height:50px"/></td><td valign="top" align="left">Either move one peg one forward, or move a peg out of the start zone to the start point </td><td> </td><td valign="top" align="left">Move one peg eight forward </td><td valign="top" align="right"><img src="../shared/8-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/2-left.png" style="height:50px"/></td><td valign="top" align="left">Move one peg two forward and then play another card from the hand </td><td> </td><td valign="top" align="left">Move one peg nine forward </td><td valign="top" align="right"><img src="../shared/9-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/3-left.png" style="height:50px"/></td><td valign="top" align="left">Move one peg three forward</td><td> </td><td valign="top" align="left">Move one peg either forward ten or backward one</td><td valign="top" align="right"><img src="../shared/10-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/4-left.png" style="height:50px"/></td><td valign="top" align="left">Move one peg four backward</td><td> </td><td valign="top" align="left">Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td><td valign="top" align="right"><img src="../shared/j-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/5-left.png" style="height:50px"/></td><td valign="top" align="left">Move one peg five forward</td><td> </td><td valign="top" align="left">Move one peg twelve foward</td><td valign="top" align="right"><img src="../shared/q-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/6-left.png" style="height:50px"/></td><td valign="top" align="left">Move one peg six forward</td><td> </td><td valign="top" align="left">Either move a peg out of the start zone to the start point, or move a peg thirteen forward</td><td valign="top" align="right"><img src="../shared/k-right.png" style="height:50px"/>
+  </td></tr><tr>
+    <td valign="top" align="left"><img src="../shared/7-left.png" style="height:50px"/></td><td valign="top" align="left">Seven separate moves of any peg one forward; Each move of one is considered a complete move</td><td> </td><td valign="top" align="left">Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td><td valign="top" align="right"><img src="../shared/joker-right.png" style="height:100px"/>
+</td></tr>
+</table>
 
+### 7 The characters
 
-## Design process
+Four characters familiar around Hay Lake are portrayed in the board and in the cards: air, water, land, and human.
+
+<img src="../shared/loon.png" style="height:50px"/> - loon can be seen and heard most days while at the lake
+
+<img src="../shared/trout.png" style="height:50px"/> - trout is a popular catch by anglers on the lake
+
+<img src="../shared/fox.png" style="height:50px"/> - fox are seen quite often, as well as a lot of other wildlife
+
+<img src="../shared/kayak.png" style="height:50px"/> - residents and visitors alike enjoy kayaking, canoeing, boating, and swimming
+
+## 8 Game design process
 
 See the [design resources](design.md) for information regarding the design files and the initial steps in creating a release of files.
 
-## Print, board, and box representations
+## 9 Print, board, and box representations
 
-### Print representations
-Print to paper any of the playing surface using these PNG files at 200mm x 248mm dimension at 100% scale (which is suitable for both A4 and US-letter page sizes):
+### 9.1 Print representations
 
-- [Basic-mode play surface ](../shared/basic-revenge-crane.png)
-- [Extended-mode play surface ](../shared/extended-revenge-crane.png)
-- [SBF Single board front (dual-mode play) surface ](../shared/combo-revenge-crane.png)
-- [SBB Single board back surface ](../shared/back-revenge-crane.png)
+Print to paper the playing surface using this PNG file at 248mm x 248mm dimension (centred in a 10"x10" box):
 
-### Board and box representations
+- [Play surface ](../shared/revenge-crane.png)
+
+### 9.2 Board and box representations
 
 For the PDF burn files for laser cutters, see the [releases page](https://github.com/CraneSoftwrights/revenge/releases) for ZIP collections of all of the PDF, PNG, and SVG files created from the design files:
-- DBF Double board front layer
-- DBB Double board back layer
-- L1 through L7 Multiple board layers
+- SBF Single board front layer (SBFx has peg holes marked for drilling, but not burned through)
+- SBB Single board front layer
+- DBF Double board front layer (DBFx has peg holes marked for drilling, but not burned through)
+- DBB Double board back layer (same as L9)
+- L1 through L4 Multiple board play layers with peg holes
+- L5 Multiple board storage layer, replicated as many times as needed to accommodate card and peg storage
+- L9 Multiple board back layer (same as DBB)
 
-### Creating all the representations
+### 9.3 Creating all the representations
 
 To build new versions of the board and box representations, see the [building instructions](build.md) for how the laser burn image files in the releases ZIP collections are created from the design files.
 
-### Reviewing and using all the representations
+### 9.4 Reviewing and using all the representations
 
 See the [burn directory](../burn) and [burn README](burn.md) for a collection of SVG and PNG image files of game board and box layer materials. In the releases page ZIP collections these repository files are included with the PDF burn files. The PDF burn files are not part of the git repository because unchanged republished PDF files bloat the repository due to immutable PDF metadata differences in every replacement file.
 
-### Handy cutting files for preparing materials
+### 9.5 Handy cutting files for preparing materials
 
 See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards and box layers.
 
-### Shared images used in documentation
+### 9.6 Shared images used in documentation
 
 See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
