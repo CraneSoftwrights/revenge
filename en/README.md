@@ -7,15 +7,129 @@ Browser pages: [`https://cranesoftwrights.github.io/revenge/en/README.md.html`](
 
 ### Table of contents
 - [Introduction](#introduction)
-- [Basic Play](#basic-mode-play-)
+- [The Board](#the-board)
 - [Extended Play](#extended-mode-play-)
 - [Scoring a game](#scoring-a-game)
 - [Design process](#design-process)
 - [Print, board, and box representations](#print-board-and-box-representations)  
 
-## Introduction
+## 1 Introduction
 
-This project develops a board game 
+Revenge at Hay Lake is a race to the finish, driven by vengeance against your opponents. 
+
+Be the first to get all your pegs from your start to your end, without being afraid to take revenge on any player that gets in your way.
+
+Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to win. 
+
+## 2 The board
+
+### 2.1 Legend
+
+The following terminology is used in English:
+
+| Legend | Key |
+| ---- | ---- |  
+| **A** = start zone<br/><br/>**B** = play zone<br/><br/>**C** = safe zone<br/><br/>**D** = end zone<br/><br/>**E** = start point<br/><br/>**F** = safe zone entry point<br/><br/>**G** = sweep zone<br/><br/>**H** = sweep zone entry point<br/><br/>**K** = sweep zone exit point<br/><br/>**M** = counting notches | <img alt="" src="../shared/legend.png" style="height:400px"/> |  
+
+### 2.2 Player zones
+
+Players begin with all four of their pegs in their respective start zone.
+
+Players proceed around the play area, typically though not always in the clockwise direction.
+
+Players enter their safe zone from their safe zone entry point, without needing to complete their turn at their safe zone entry point, and head towards their end zone. 
+
+Note, however, that a peg is not qualified to move if there are insufficient holes from their play position through their safe zone and to their end zone.
+
+### 2.3 Sweep zones
+
+<img src="../shared/sweep.png" style="height:100px"/>  
+
+The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if it is the last move of the play:
+
+- if any of your own pegs are covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
+- if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one step before your safe zone entry point
+- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs are sent back to their start zone
+
+A special note about the play of the "7" card: that dictates seven separate completed plays of one move each and so any number of those plays would qualify for consideration at a sweep zone entry point because each move of one is considered completed.
+
+## 3 The deal
+
+<img src="../shared/deals.png" style="height:120px"/>  
+
+A standard deck of 54 cards, including 52 suit cards and 2 jokers, is shuffled when the deal begins for a dealer.
+
+The first dealer is determined by some agreed-upon method, one of which is just revealing one card for each player and the high card wins (aces are lowest and jokers are highest). Subsequent dealers take turns clockwise from the first dealer once the dealer has made it through the deck of cards.
+
+The first deal is five cards per player. Subsequent deals are four cards per player. When playing four players, all cards end up being played in three rounds unless one or both of the last two cards are jokers. When playing three players, as many as three cards can end up being unused. When playing two players, as many as four cards can end up being unused.
+
+When a card is played, it is shown first to all opponents and then discarded face down in the centre discard pile. The player proceeds then to act on the card being played. Should it be proven that the card in fact cannot be played, it is retrieved from the discard and put back into the player's hand.
+
+At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. Any undealt cards also are discarded face down. The discarded cards are gathered and passed clockwise to the next dealer.
+
+## 4 The play
+
+The play begins with the player to the dealer's left and continues clockwise.
+
+At their turn, players choose which of the qualified plays available in their hand to play. Players cannot "pass", that is, if there is a qualified play in their hand they are obliged to play it, even if it is strategically inconvenient.
+
+A player without any qualified plays in their hands simply declares something along the lines of "I cannot play." Note that the cards in their hand may become playable once play returns to them based on changes made in the play area in the plays in between. Note also that it is not uncommon for a player to be unable to play for the entire duration of the deal. Woe to the player who is dealt such a hand repeatedly time and again (it happens!).
+
+A player's candidate play is not qualified if it should end at a hole occupied by themselves. 
+
+A player can take revenge on an opponent by completing their play at a hole occupied by that opponent. The opponent's peg is returned to the opponent's start zone.
+
+When playing a given numbered advance, the holes counted may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play.
+
+## 4.1 The start
+
+<img src="../shared/start.png" style="height:100px"/>  
+
+A player playing the star moves a peg from their start zone to their start point, provided their start point is not occupied by themselves. If their start point is occupied by an opponent, the player takes revenge on the opponent and sends their peg back to their opponent's start zone.
+
+## 4.2 Revenge!
+
+<img src="../shared/revenge.png" style="height:100px"/>  
+
+A player playing the exclamation point (or "bang") takes revenge on an opponent by moving one of their pegs from their start zone to the hole in the play zone that is occupied by the opponent. This returns the opponent's peg back to the opponent's start zone. To take revenge in this manner the player's peg must come from their start zone and not from any other of their zones.
+
+## 4.3 The swap
+
+<img src="../shared/swap.png" style="height:100px"/>  
+
+A player playing the hash (or "pound", or "octothorpe") swaps the positions of any two pegs in the play zone, be they their own pegs and/or the pegs of their opponents.
+
+## 5 The win
+
+<img src="../shared/objective.png" style="height:100px"/>  
+
+The winning player is the first to get all of their pegs into their end zone.
+
+Before the game begins, all players must agree on the rules of filling the end zone.
+
+## 5.1 The easy win
+
+When playing for the easy win, a play is qualified if its very last step reaches the end zone from the safe zone. There is no order on filling the end zone.
+
+Moreover, any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole. As in the play zone, a play is not qualified if the last step is occupied by another of one's pegs. 
+
+## 5.2 The difficult win
+
+When playing for the difficult win, the holes of the end zone are counted in the play as an extension of the safe zone. Pegs make their way to the left of the end zone and may end up sitting for a while unfinished to the right of unoccupied holes to their left in the end zone.
+
+Moreover, pegs in the safe zone and end zone block one's pegs from stepping over and continuing play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
+
+### 6 The cards
+
+|:---|:---|---|---:|---:|
+|<img src="../shared/a-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/8-right.png" style="height:50px"/>
+|<img src="../shared/2-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/9-right.png" style="height:50px"/>
+|<img src="../shared/3-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/10-right.png" style="height:50px"/>
+|<img src="../shared/4-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/j-right.png" style="height:50px"/>
+|<img src="../shared/5-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/q-right.png" style="height:50px"/>
+|<img src="../shared/6-left.png" style="height:50px"/>| Move one peg two forward and then play another card from the hand | | Move one peg nine forward | |<img src="../shared/k-right.png" style="height:50px"/>
+|<img src="../shared/7-left.png" style="height:50px"/>| Move one peg one forward, or move a player out of the start zone to the start point | | Move one peg eight forward | |<img src="../shared/joker-right.png" style="height:100px"/>
+
 
 ## Design process
 
