@@ -13,7 +13,7 @@ Rules, resources, and instructions *(see the bottom of this page regarding addin
 
 Print image *(click the image then use the download icon at top right beside the pencil)*:
 
-<img src="shared/revenge-crane.png" style="transform:rotate(225deg)"/>
+[<img src="shared/revenge-crane.png"/>](burn/png/boards/Print-10x10-revenge-crane.png)
 
 ## Adding additional language support
 
