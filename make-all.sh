@@ -20,7 +20,7 @@ if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
 if [ -f burn/png/boards/Print-10x10-revenge-crane.png ]
 then
-cp burn/png/boards/Print-10x10-revenge-crane.png shared/revenge-crane.png
+convert burn/png/boards/Print-10x10-revenge-crane.png -rotate 225 shared/revenge-crane.png
 fi 
 
 popd >/dev/null

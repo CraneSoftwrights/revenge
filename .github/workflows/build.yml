@@ -31,6 +31,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y inkscape
           inkscape --version
+
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get install -y imagemagick
+          convert --version
           
       - name: Create subdirectories
         run: |
