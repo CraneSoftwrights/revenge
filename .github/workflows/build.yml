@@ -64,6 +64,8 @@ jobs:
           # Define the release version using UTC in the format CCMMYYDD-HHMMZ
           echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%MZ')" >> $GITHUB_ENV
           echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+          echo "COMMIT_HASH_SHORT=${{ github.sha::0:8 }}" >> $GITHUB_ENV
+          echo "package=${{ env.package }}-${{ env.COMMIT_HASH_SHORT }}" >> $GITHUB_ENV
                     
       - name: Set up Git
         run: |
@@ -89,26 +91,26 @@ jobs:
           cp make-all.log.txt download
           # compose README file
           cp      shared/outputs-readme.txt \
-                  download/README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
-          echo  >>download/README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}
+                  download/README-crane-revenge-pdf-png-svg--${{ env.package }}.txt
+          echo  >>download/README-crane-revenge-pdf-png-svg--${{ env.package }}.txt crane-revenge-pdf-png-svg--${{ env.package }}
           # package up everything except README
-          zip -r         download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
+          zip -r         download/crane-revenge-pdf-png-svg--${{ env.package }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
           # add README without the directory prefix
           cd             download
-          zip -r                  crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip \
-                           README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
+          zip -r                  crane-revenge-pdf-png-svg--${{ env.package }}.zip \
+                           README-crane-revenge-pdf-png-svg--${{ env.package }}.txt
           # remove the README file in order to test the ZIP
-          rm               README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
+          rm               README-crane-revenge-pdf-png-svg--${{ env.package }}.txt
           # test the ZIP by unzipping it
-          unzip                   crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
+          unzip                   crane-revenge-pdf-png-svg--${{ env.package }}.zip
                   
       - name: Upload artefacts for action - burn files
         uses: actions/upload-artifact@v4
         with:
-          name: crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}
+          name: crane-revenge-pdf-png-svg--${{ env.package }}
           path: |
             download/*
-            !download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
+            !download/crane-revenge-pdf-png-svg--${{ env.package }}.zip
 
       - name: Upload artefacts for action - log file
         uses: actions/upload-artifact@v4
@@ -165,11 +167,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create the release
-          gh release create "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" --title "Release ${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" --notes "Automated release created by GitHub Actions."
+          gh release create "${{ env.package }}" --title "Release ${{ env.package }}" --notes "Automated release created by GitHub Actions."
 
       - name: Attach artefacts to the release
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip make-all.log.txt
+          gh release upload "${{ env.package }}" download/crane-revenge-pdf-png-svg--${{ env.package }}.zip make-all.log.txt
