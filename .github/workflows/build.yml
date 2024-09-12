@@ -91,26 +91,26 @@ jobs:
           cp make-all.log.txt download
           # compose README file
           cp      shared/outputs-readme.txt \
-                  download/README-crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.txt
-          echo  >>download/README-crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.txt crane-revenge-pdf-png-svg--${{ env.PACKAGE }}
+                  download/README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
+          echo  >>download/README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
           # package up everything except README
-          zip -r         download/crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
+          zip -r         download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
           # add README without the directory prefix
           cd             download
-          zip -r                  crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.zip \
-                           README-crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.txt
+          zip -r                  crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip \
+                           README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
           # remove the README file in order to test the ZIP
-          rm               README-crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.txt
+          rm               README-crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
           # test the ZIP by unzipping it
-          unzip                   crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.zip
+          unzip                   crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
                   
       - name: Upload artefacts for action - burn files
         uses: actions/upload-artifact@v4
         with:
-          name: crane-revenge-pdf-png-svg--${{ env.PACKAGE }}
+          name: crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
           path: |
             download/*
-            !download/crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.zip
+            !download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
 
       - name: Upload artefacts for action - log file
         uses: actions/upload-artifact@v4
@@ -167,11 +167,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create the release
-          gh release create "${{ env.PACKAGE }}" --title "Release ${{ env.PACKAGE }}" --notes "Automated release created by GitHub Actions."
+          gh release create "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" --title "Release ${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" --notes "Automated release created by GitHub Actions."
 
       - name: Attach artefacts to the release
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ env.PACKAGE }}" download/crane-revenge-pdf-png-svg--${{ env.PACKAGE }}.zip make-all.log.txt
+          gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip make-all.log.txt
