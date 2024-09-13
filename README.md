@@ -1,4 +1,4 @@
-# Hay Lake Revenge
+# Revenge at Hay Lake
 
 A fun peg and card game for the whole family.
 
@@ -6,6 +6,9 @@ Copyright © Crane Softwrights Ltd. ([copyright details](COPYRIGHT.md))
 Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/CraneSoftwrights/revenge)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
 Browser pages: [`https://cranesoftwrights.github.io/revenge/README.md.html`](https://cranesoftwrights.github.io/revenge/README.md.html)  
+
+|---|---|---|
+|<img src="shared/board-closed.jpg"/>|<img src="shared/board-cards.jpg"/>|<img src="shared/board-pegs.jpg"/>|
 
 Rules, resources, and instructions *(see the bottom of this page regarding adding a new language)*:
 
