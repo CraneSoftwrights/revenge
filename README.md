@@ -7,8 +7,16 @@ Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
 Browser pages: [`https://cranesoftwrights.github.io/revenge/README.md.html`](https://cranesoftwrights.github.io/revenge/README.md.html)  
 
-|---|---|---|
-|<img src="shared/board-closed.jpg"/>|<img src="shared/board-cards.jpg"/>|<img src="shared/board-pegs.jpg"/>|
+<table style="table-layout: fixed; width: 100%;">
+  <col width="33%"/>
+  <col width="33%"/>
+  <col width="33%"/>
+  <tr>
+    <td><img src="shared/board-closed.jpg"/></td>
+    <td><img src="shared/board-cards.jpg"/></td>
+    <td><img src="shared/board-pegs.jpg"/></td>
+  </tr>
+</table>
 
 Rules, resources, and instructions *(see the bottom of this page regarding adding a new language)*:
 
