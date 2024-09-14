@@ -8,13 +8,15 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 Browser pages: [`https://cranesoftwrights.github.io/revenge/README.md.html`](https://cranesoftwrights.github.io/revenge/README.md.html)  
 
 <table style="table-layout: fixed; width: 100%;">
-  <col width="33%"/>
-  <col width="33%"/>
-  <col width="33%"/>
+  <col width="25%"/>
+  <col width="25%"/>
+  <col width="25%"/>
+  <col width="25%"/>
   <tr>
-    <td><img src="shared/board-closed.jpg"/></td>
-    <td><img src="shared/board-cards.jpg"/></td>
-    <td><img src="shared/board-pegs.jpg"/></td>
+    <td><img src="shared/board-closed.jpg" width="100%"/></td>
+    <td><img src="shared/board-cards.jpg" width="100%"/></td>
+    <td><img src="shared/board-pegs.jpg" width="100%"/></td>
+    <td><img src="shared/board-ready.jpg" width="100%"/></td>
   </tr>
 </table>
 
