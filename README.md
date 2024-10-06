@@ -2,7 +2,7 @@
 
 A fun peg and card game for the whole family.
 
-Copyright © Crane Softwrights Ltd. ([copyright details](COPYRIGHT.md))  
+Copyright © Crane Softwrights Ltd. ([copyright details](LICENSE))  
 Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/CraneSoftwrights/revenge)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
 Browser pages: [`https://cranesoftwrights.github.io/revenge/README.md.html`](https://cranesoftwrights.github.io/revenge/README.md.html)  
