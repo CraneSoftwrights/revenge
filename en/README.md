@@ -38,9 +38,13 @@ The following terminology is used in English:
 
 Players begin with all four of their pegs in their respective start zone. There is no order to removing pegs from the start zone.
 
-Players proceed around the play area, typically though not always in the clockwise direction.
+Players proceed around the play zone, typically though not always in the clockwise direction.
 
-Players enter their safe zone from their safe zone entry point, without needing to complete their turn at their safe zone entry point, and head towards their end zone. Note, however, that a peg is not qualified to move if there are insufficient holes from their play position through their safe zone and to their end zone.
+Players enter their safe zone from their safe zone entry point when moving clockwise (not when moving counterclockwise), without needing to complete their turn at their safe zone entry point, and head towards their end zone.
+
+Players in the safe zone are protected from revenge and swaps.
+
+A counterclockwise move for players in the safe zone backs them out of the safe zone into the vulnerable play zone counterclockwise from the safe zone entry point. Players in the end zone cannot play counterclockwise moves out of the end zone, as the end zone is separated from the safe zone.
 
 Players enter the end zone based on the nature of the win that has been agreed upon before the start of the game. See <a href="#5-the-win">5 The win</a> for details.
 
@@ -118,15 +122,21 @@ Before the game begins, all players must agree on the rules for filling the end 
 
 ### 5.1 The easy win
 
-When playing for the easy win, a play is qualified if its very last hole reaches the end zone from the safe zone. There is no order on filling the end zone.
+When playing for the easy win, simply getting past the safe zone puts one in the end zone, even if there are unused moves in the play.
 
-Moreover, any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole. As in the play zone, a play is not qualified if the last hole is occupied by another of one's pegs. 
+Any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole.
+
+### 5.1 The typical win
+
+When playing for the typical win, a play is qualified if its very last move in a play steps into the end zone from the safe zone. There is no order on filling the end zone.
+
+Any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole.
 
 ### 5.2 The difficult win
 
 When playing for the difficult win, the holes of the end zone are counted in the play as an extension of the safe zone. Pegs make their way to the left of the end zone and may end up sitting for a while unfinished to the right of unoccupied holes to their left in the end zone.
 
-Moreover, pegs in the safe zone and end zone block one's pegs from stepping over and continuing play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
+Importantly, pegs in the safe zone and end zone block one's pegs from stepping over and continuing play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
 
 ## 6 The cards
 
