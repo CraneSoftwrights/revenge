@@ -76,6 +76,8 @@ When a card is played, it is shown first to all opponents and then discarded fac
 
 At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. Any undealt cards also are discarded face down. The discarded cards are gathered and passed clockwise to the next dealer.
 
+Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank"><img src="../shared/revenge-deck.jpg" width="100px"/></a>
+
 ## 4 The play
 
 The play begins with the player to the dealer's left and continues clockwise.

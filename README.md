@@ -20,6 +20,8 @@ Browser pages: [`https://cranesoftwrights.github.io/revenge/README.md.html`](htt
   </tr>
 </table>
 
+<a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">Buy a custom card deck</a> direct from Crane's supplier <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank"><img src="shared/revenge-deck.jpg" width="100px"/></a>
+
 Rules, resources, and instructions *(see the bottom of this page regarding adding a new language)*:
 
 - [English rules, resources, and instructions](en/README.md#readme) - [README.md](en/README.md)
