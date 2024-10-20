@@ -275,6 +275,8 @@ For the PDF burn files for laser cutters, see the [releases page](https://github
 
 The burn/cut images are at 248mm x 248mm dimension, centred in a 10"x10" box.
 
+The peg holes are approximately 1/8" or 3mm wide, suitable for typical cribbage board pegs.
+
 ### 9.3 Creating all the representations
 
 To build new versions of the board and box representations, see the [building instructions](build.md) for how the laser burn image files in the releases ZIP collections are created from the design files.
