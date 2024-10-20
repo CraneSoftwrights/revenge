@@ -24,6 +24,8 @@ As one of four, three, or even just two players, be the first to get all your fo
 
 Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to win. 
 
+Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/>
+
 ## 2 The board
 
 ### 2.1 Legend
@@ -52,7 +54,7 @@ Players enter the end zone based on the nature of the win that has been agreed u
 
 <img src="../shared/sweep.png" style="height:100px"/>  
 
-The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if it is the last move of the play:
+The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if your peg arrives at that point on the last move of the play:
 
 - if any of your own pegs are covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
 - if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one hole before your safe zone entry point
@@ -76,8 +78,6 @@ When a card is played, it is shown first to all opponents and then discarded fac
 
 At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. Any undealt cards also are discarded face down. The discarded cards are gathered and passed clockwise to the next dealer.
 
-Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/>
-
 ## 4 The play
 
 The play begins with the player to the dealer's left and continues clockwise.
@@ -93,6 +93,8 @@ A player's candidate move is not qualified if it should end at a hole occupied b
 A player takes revenge on an opponent by completing their play at a hole already occupied by that opponent. The opponent's peg must be returned to the opponent's start zone.
 
 When playing a given numbered advance, the holes counted may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play.
+
+The player shows their qualifying play card to their opponents before discarding it, face down, on the discard pile. When the hand is completed, all players with unqualified cards discard them face down in the discard pile without revealing them to opponents (to prevent card counting).
 
 ### 4.1 The start
 
@@ -128,19 +130,27 @@ When playing for the easy win, simply getting past the safe zone puts one in the
 
 Any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole.
 
+An easy-win game with four players appears to last between 20 and 50 minutes. 
+
 ### 5.1 The typical win
 
-When playing for the typical win, a play is qualified if its very last move in a play steps into the end zone from the safe zone. There is no order on filling the end zone.
+When playing for the typical win, a play is qualified only if its very last step steps into the end zone from the safe zone. There is no order on filling the end zone.
 
 Any pegs in the safe zone do not block another peg from stepping over and continuing its play after counting the occupied hole.
+
+A typical win game with four players appears to last just over an hour.
 
 ### 5.2 The difficult win
 
 When playing for the difficult win, the holes of the end zone are counted in the play as an extension of the safe zone. Pegs make their way to the left of the end zone and may end up sitting for a while unfinished to the right of unoccupied holes to their left in the end zone.
 
-Importantly, pegs in the safe zone and end zone block one's pegs from stepping over and continuing play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
+Importantly, pegs in the safe zone and end zone block one's pegs from stepping over and continuing steps and so disqualifies the play. This drastically reduces the number of qualifying plays and can stretch the length of the game quite a bit.
+
+A difficult win game with four players appears to last about two hours.
 
 ## 6 The cards
+
+Any standard playing card deck, 52 cards plus 2 jokers, can be used to play the game. You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier. The custom deck includes standard suits and so can be used for standard card games.
 
 Each card has one or more plays, and each play involves one or more moves.
 
