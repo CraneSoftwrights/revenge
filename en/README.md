@@ -18,7 +18,7 @@ Browser pages: [`https://cranesoftwrights.github.io/revenge/en/README.md.html`](
 
 ## 1 Introduction
 
-Revenge at Hay Lake is a race to the finish, driven by vengeance against your opponents. 
+Revenge at Hay Lake is a race to the finish, driven by good-natured vengeance against your opponents. 
 
 As one of four, three, or even just two players, be the first to get all your four pegs from your start zone to your end zone, without being afraid to take revenge on any player that gets in your way.
 
@@ -44,7 +44,7 @@ Players proceed around the play zone, typically though not always in the clockwi
 
 Players enter their safe zone from their safe zone entry point when moving clockwise (not when moving counterclockwise), without needing to complete their turn at their safe zone entry point, and head towards their end zone.
 
-Players in the safe zone are protected from revenge and swaps.
+Players in the safe zone are protected from revenge and from swaps.
 
 A counterclockwise move for players in the safe zone backs them out of the safe zone into the vulnerable play zone counterclockwise from the safe zone entry point. Players in the end zone cannot play counterclockwise moves out of the end zone, as the end zone is separated from the safe zone.
 
@@ -72,7 +72,11 @@ A standard deck of 54 cards, including 52 suit cards and 2 jokers, is shuffled w
 
 The first dealer is determined by some agreed-upon method, one of which is just revealing one card for each player and the high card wins (aces are lowest and jokers are highest). Subsequent dealers take turns clockwise from the first dealer once the dealer has made it through the deck of cards.
 
-The first deal is five cards per player. Subsequent deals are four cards per player. When playing four players, all cards end up being played in three rounds unless one or both of the last two cards are jokers. When playing three players, as many as three cards can end up being unused. When playing two players, as many as four cards can end up being unused.
+When playing four players, the first deal is five cards per player and subsequent deals are four cards per player.  All cards end up being played in three rounds unless one or both of the last two cards are jokers.
+
+When playing three players, again the first deal is five cards per player and subsequent deals are four cards per player. All but one of the cards end up being played in four rounds unless one or two of the last three cards are jokers.
+
+When playing two players, the deal changes slightly with the first two deals being five cards per player and the subsequent deals being four cards per player. All cards end up being played in six rounds unless one or both of the last two cards are jokers.
 
 When a card is played, it is shown first to all opponents and then discarded face down in the centre discard pile. The player proceeds then to act on the card being played. Should it be proven that the card in fact cannot be played, it is retrieved from the discard and put back into the player's hand. Discarded cards that are successfully played are not reused until the next dealer shuffles.
 
@@ -80,21 +84,21 @@ At the end of a deal, all unplayed cards are discarded face down without being r
 
 ## 4 The play
 
-The play begins with the player to the dealer's left and continues clockwise.
+The play begins with the player to the dealer's left and continues clockwise. Each round finishes when the dealer makes their play. Rounds continue until one or more players win during the last round.
 
 Reviewing the cards dealt to them in their hands (See <a href="6-the-cards">6 The cards</a> for details), some cards represent one or more "qualifying moves" that can be played. A qualifying move is determined by the ability for a player's peg to occupy the last hole that satisfies one of the candidate plays described on the card. If the peg to be moved cannot occupy the last hole dictated by the move, then the move is not qualified.
 
-At their turn, players choose which of the qualified moves available in their hand to play. Players cannot "pass", that is, if there is a qualified move in their hand they are obliged to play it, even if it is strategically inconvenient.
+At their turn, players choose which of the qualified moves available in their hand to play. Players cannot "pass", that is, if there is a qualified move in their hand they are obliged to play it, even if it is strategically inconvenient. An example is having to move back out of the safe zone and into the play zone.
 
-A player without any qualified moves in their hands simply declares something along the lines of "I cannot play." Note that the cards in their hand may become playable once play returns to them based on changes made in the play area in the plays in between. Note also that it is not uncommon for a player to be unable to play for the entire duration of the deal. Woe to the player who is dealt such a hand repeatedly time and again (it happens!).
+A player without any qualified moves in their hands simply declares something along the lines of "I cannot play." Note that the cards in their hand may become playable once play returns to them based on changes made in the play area in the plays in between. Note also that it is not uncommon for a player to be unable to play for the entire duration of the deal. Woe to the player who is dealt such a hand repeatedly time and again (it happens!). While not mandatory, a player who has only cards that can never be played regardless of changes on the board may choose to discard them at any time to remind other players not to wait for them to say they cannot play.
 
-A player's candidate move is not qualified if it should end at a hole occupied by themselves. A card with more than one candidate move does not need all moves to be qualified, as the qualified moves on the card allow the card to be played. 
+A player's candidate move is not qualified if it should end at a hole occupied by themselves. A card with more than one candidate move does not need all moves to be qualified, as any one qualified move on the card allow the card to be played with that move. 
 
 A player takes revenge on an opponent by completing their play at a hole already occupied by that opponent. The opponent's peg must be returned to the opponent's start zone.
 
 When playing a given numbered advance, the holes counted may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play.
 
-The player shows their qualifying play card to their opponents before discarding it, face down, on the discard pile. When the hand is completed, all players with unqualified cards discard them face down in the discard pile without revealing them to opponents (to prevent card counting).
+The player shows their qualifying play card to their opponents before discarding it, face down, on the discard pile. When the hand is completed, if they have not already done so, all players still holding their unqualified cards discard them face down in the discard pile without revealing them to opponents (to prevent card counting).
 
 ### 4.1 The start
 
@@ -120,7 +124,7 @@ All pegs in the start, safe, and end zones are protected from being swapped.
 
 <img src="../shared/objective.png" style="height:100px"/>  
 
-The winning player is the first to get all of their pegs into their end zone. There are no ties, and so the dealer is at a slight disadvantage of playing last behind the other players in turn.
+The winning players are the first to get all of their pegs into their end zone in the last round of the game. If the player that finishes first is not the dealer, the final round continues until the dealer has their play. This ensures all players end the game having played the same number of rounds. The winners are those players who finished during the final round.
 
 Before the game begins, all players must agree on the rules for filling the end zone.
 
@@ -228,7 +232,7 @@ Each card has one or more plays, and each play involves one or more moves.
   </tr>
   <tr>
     <td valign="top" align="left"><img src="../shared/7-left.png" width="157.95" height="51.6"/><br>                                              </td>
-    <td valign="top" align="left">7: Seven separate moves of any peg one forward; Each move of one is considered a complete move; The game is permitted to end on any of the seven moves and does not require all seven moves to be played</td>
+    <td valign="top" align="left">7: Seven separate moves of the same or any different peg each time one forward; Each move of one is considered a complete move; accordingly, the game is permitted to end on any of the seven moves and does not require all seven moves to be played</td>
     <td> </td>
     <td valign="top" align="left">Joker: Take the top card from the deal and then either take revenge on an opponent from one's start zone or move one peg twenty-five forward</td>
     <td valign="top" align="right"><img src="../shared/joker-right.png" width="125.4" height="100.5"/><br>                                              </td>
