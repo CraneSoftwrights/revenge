@@ -70,38 +70,23 @@ jobs:
         run: |
           git add .
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "Update artifacts from push action"
+            git commit -m "Update artifacts from pull request action"
             NEW_COMMIT_SHA=$(git rev-parse HEAD)
             echo "NEW_COMMIT_SHA=$NEW_COMMIT_SHA" >> $GITHUB_ENV
-            git push
+
+            # Create a new branch for the pull request
+            PR_BRANCH="auto-update-$(date +%Y%m%d-%H%M%S)"
+            git checkout -b $PR_BRANCH
+            git push origin $PR_BRANCH
+
+            # Store branch name for later steps
+            echo "PR_BRANCH=$PR_BRANCH" >> $GITHUB_ENV
           else
             echo "No changes to commit"
             NEW_COMMIT_SHA=""
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Wait for push to complete
-        if: success()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NEW_COMMIT_SHA: ${{ env.NEW_COMMIT_SHA }}
-        run: |
-          OWNER=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)
-          REPO=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)
-          if [ -n "$NEW_COMMIT_SHA" ]; then
-            for i in {2..10}; do
-              sleep $((2**i))
-              if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
-                echo "Push completed"
-                break
-              else
-                echo "Push not yet completed. Retrying in $((2**i)) seconds..."
-              fi
-            done
-          else
-            echo "No new commit was created. Skipping wait for push."
-          fi
           
       - name: Set environment variables
         run: |
@@ -174,3 +159,26 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" download/crane-revenge-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip make-all.log.txt
+
+      - name: Create pull request with artifact comment
+        if: success() && env.NEW_COMMIT_SHA != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_BRANCH: ${{ env.PR_BRANCH }}
+        run: |
+          PR_TITLE="Automated artifact update"
+          PR_BODY="This pull request contains automatically generated artifacts for evaluation."
+          
+          # Create pull request
+          gh pr create \
+            --base main \
+            --head "$PR_BRANCH" \
+            --title "$PR_TITLE" \
+            --body "$PR_BODY"
+
+          # Attach the ZIP file to the PR as a comment
+          gh pr comment --body "Here are the generated artifacts for evaluation. 📦" \
+                        --attach artifacts.zip
+
+          echo "Pull request created with attached ZIP artifact."
+          
