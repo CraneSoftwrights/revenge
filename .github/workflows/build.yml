@@ -171,14 +171,21 @@ jobs:
           
           # Create pull request
           gh pr create \
-            --base main \
+            --base "$BRANCH_NAME" \
             --head "$PR_BRANCH" \
             --title "$PR_TITLE" \
             --body "$PR_BODY"
 
-          # Attach the ZIP file to the PR as a comment
-          gh pr comment --body "Here are the generated artifacts for evaluation. 📦" \
-                        --attach artifacts.zip
+      - name: Add comment with artifact link
+        if: success()
+        run: |
+          # Link to GitHub Actions artifacts download
+          ARTIFACT_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          COMMENT_BODY="Here are the generated artifacts for evaluation: [Download Artifacts]($ARTIFACT_URL)"
+
+          # Add comment to pull request
+          gh pr comment \
+            --body "$COMMENT_BODY"
 
           echo "Pull request created with attached ZIP artifact."
           
