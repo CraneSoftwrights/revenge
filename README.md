@@ -26,9 +26,9 @@ Rules, resources, and instructions *(see the bottom of this page regarding addin
 
 <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">Buy a custom card deck</a> direct from Crane's supplier <img src="shared/revenge-deck.jpg" width="100px"/>
 
-Print image *(click the image then use the download icon at top right beside the pencil)*:
+Print image *(click the image then use the download icon at top right beside the pencil)* for A3 paper or US Tabloid 11x17 paper:
 
-[<img src="shared/revenge-crane.png"/>](burn/png/boards/Print-10x10-revenge-crane.png)
+[<img src="shared/revenge-crane.png"/>](burn/png/boards-no-peg-holes/Print-10x10-revenge-crane.png)
 
 ## Adding additional language support
 
