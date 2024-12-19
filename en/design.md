@@ -11,13 +11,11 @@ In [this `design/` directory](../design) is information regarding the SVG design
 
 ### 1.1 Initiating new SVG work after releasing to QA for testing
 
-The process of a release creates a number of burn and print files in the [`../burn`](../burn) subdirectories that reflect the content of the design SVG file.
+The process of a creating a release creates a number of burn and print files in the [`../burn`](../burn) subdirectories that reflect the content of the design SVG file (see [`build.md`](build.md) for details).
 
-Thus, as soon as the SVG file is touched, the burn files no longer are guaranteed to reflect what is in the SVG.
+Thus, as soon as the SVG file is touched with changes, the burn files no longer are guaranteed to reflect what is in the SVG. These will be updated when the changes are pushed to GitHub.
 
-When starting new work after a snapshot has been moved to QA for testing, be sure to delete all files except the `README.md` file in the [`../burn/svg` directory](../burn/svg) and the [`../burn/pdf` directory](../burn/pdf). This way anyone visiting the site will find files only in the QA branch and main branch.
-
-Also, the version number in the SVG file needs to be changed early in two different layers (one for print and one for burn) so there is no confusion regarding the SVG file not reflecting the published files. See the "Update the version string" subsection below for details.
+Also, the version number in the SVG file needs to be changed early in the process in two different layers (one for the boards and one for cards) so there is no confusion regarding the SVG file not reflecting the published files. See the "Update the version string" subsection below for details.
 
 ### 1.2 SVG layers for the physical levels
 
@@ -60,7 +58,7 @@ Remember to save frequently as Inkscape appears to crash easily when working wit
 
 ### 4.1 Update the version string
 
-Update the version strings (two), one for print and the other for burning. 
+Update the version strings (two), one for the boards and the other for the cards. 
 
 Look in the "Layers and Objects" panel for the two layers with "+ version" in the layer name. Un-hide the layer but leave the layer locked. Open up the nested groups until you find the text string labeled "Version". Select it and press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
 
@@ -83,10 +81,14 @@ The actual assembly is accomplished in the production steps by XSLT stylesheets 
 
 The review SVG file is then burst into individual SVG files, one for each collage and print assembly. The collage and print SVG files need some manual intervention before converting the SVG files to PDF using the synthesized batch script. The resulting PDF files need some manual intervention to orient them as desired for the laser cutter, as well as a one-last-time review of their accuracy before use.
 
+See Crane's [designSVG2burnPDF GitHub repository](https://github.com/CraneSoftwrights/designSVG2burnPDF) for more information regarding these naming conventions.
+
 ## 5. Create the individual level SVG files and burn files
 
 Close the `design-revenge-crane.svg` file to prevent it from being disturbed. And if it does get disturbed, one can replace it from the last copy committed to git.
 
-Follow the instructions in the "Burn files" section in [`build.md`](build.md) regarding creating the individual SVG and burn file collages.
+Follow the instructions in [`build.md`](build.md) regarding creating the individual SVG and burn file collages.
 
+## A. Postscript regarding the TEMBO boards
 
+The [TEMBO NGO in Ottawa](https://projectembo.org) has built and runs a travelers' guesthouse in the village of [Longido in northern Tanzania](https://www.google.com/maps/place/Longido,+Tanzania). This game proved popular with guests there during a month-long stay. A custom edition of the game has a front and back recognizing the guesthouse, including a rasterized photograph of the guesthouse in the early morning sun. One of the burn directories includes these custom layers and illustrates how this could be done for other custom boards.
