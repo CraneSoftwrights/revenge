@@ -262,9 +262,11 @@ See the [design resources](design.md) for information regarding the design files
 
 ### 9.1 Print representations
 
-Print to paper the playing surface using this PNG file at 248mm x 248mm dimension (centred in a 10"x10" box):
+Print to paper the playing surface using this PNG file at 248mm x 248mm dimension, centred in a 10"x10" box, with a small unused margin of approximately .28in or 7mm around all four printing extents:
 
 - [Play surface ](../shared/revenge-crane.png)
+
+When printing, use A3 paper or US Tabloid 11x17 paper to avoid shrinking the playing surface.
 
 ### 9.2 Board and box representations
 
@@ -277,7 +279,7 @@ For the PDF burn files for laser cutters, see the [releases page](https://github
 - L5 Multiple board storage layer, replicated as many times as needed to accommodate card and peg storage
 - L9 Multiple board back layer (same as DBB)
 
-The burn/cut images are at 248mm x 248mm dimension, centred in a 10"x10" box.
+The burn/cut images are at 248mm x 248mm dimension, centred in a 10"x10" box, with a small unused margin of approximately .14in or 3.5mm around all four cutting extents. Be sure to be precise when preparing the wood for burning and cutting.
 
 The peg holes are approximately 1/8" or 3mm wide, suitable for typical cribbage board pegs.
 
