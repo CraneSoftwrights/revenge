@@ -211,7 +211,7 @@ Each card has one or more plays, and each play involves one or more moves.
   </tr>
   <tr>
     <td valign="top" align="left"><img src="../shared/4-left.png" width="93.6" height="51.6"/></td>
-    <td valign="top" align="left">4: Move one peg four backward</td>
+    <td valign="top" align="left">4: Move one peg four backward; note that the safe zone cannot be entered backwards, but it can (and must, if that is the only play) be exited backwards</td>
     <td> </td>
     <td valign="top" align="left">Jack: Either take revenge on an opponent from one's start zone, or swap the positions of any two pegs in the play zone</td>
     <td valign="top" align="right"><img src="../shared/j-right.png" width="100.8" height="49.2"/></td>
