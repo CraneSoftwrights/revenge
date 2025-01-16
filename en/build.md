@@ -5,27 +5,27 @@ Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/revenge/en/burn.md.html`](https://cranesoftwrights.github.io/revenge/en/burn.md.html)  
 
-In [this `burn/` directory](../burn) are all of the burn files created by the tools found in the [`../build`](build.md) directory.
+In [this `burn/` directory](../burn) you will find all the burn files created by the tools found in the [`../build`](build.md) directory.
 
 ## 1. Creating the burn files
 
 ### 1.1 Pushing the SVG changes in the repository
 
-Having made all the desired changes to the SVG, the act of adding, committing, and pushing these changes to the GitHub repository triggers the creation of all of the burn and print files associated with the new SVG.
+Having made all the desired changes to the SVG, adding, committing, and pushing these changes to the GitHub repository triggers the creation of all of the burn and print files associated with the new SVG.
 
-These burn files are available in a ZIP associated with the GitHub action triggered by the push. The burn files are not maintained in the committed repository files.
+These burn files are available in a ZIP associated with the GitHub action triggered by the push. The burn files are not stored in the repository itself.
 
 When the changes are made in the develop, qa, or main branches, a release ZIP also is created and found through links on the repository home page to [`releases/`](../releases).
 
 ### 1.2 Pulling the PNG preview changes from the repository
 
-It is important to pull from the GitHub repository immediately to update your local repository with the PNG preview files in [`burn/png/`](../burn/png) created during the process.
+It is important to pull from the GitHub repository after the push actions have been completed to update your local repository with the PNG preview files in [`burn/png/`](../burn/png) created during the process.
 
 ## 2. Burning assemblies
 
 ### 2.1 Single boards - SBF, SBFx, and SBB
 
-These patterns are intended to be burned front (SBF and SBFx) and back (SBB) on a single board. The pattern on the back is shrunk to fit within the holes that come through from the front.
+These patterns are intended to be burned on the front (SBF and SBFx) and back (SBB) on a single board. The pattern on the back is shrunk to fit within the holes that come through from the front.
 
 The SBFx board does not have peg holes, but does have pilot marks for 1/8" bits, or whatever size is needed for the pegs that are being used.
 
@@ -50,7 +50,7 @@ The burn files of a multi-level board playing surface and peg holes comprise:
 
 #### 2.3.2 Multi-level board playing surface without burned peg holes
 
-The burn files of a multi-level board playing surface and no burned peg holes (but with pilot marks for drilling one's own holes) comprise:
+The burn files of a multi-level board playing surface and no peg holes burned (but with pilot marks for drilling one's own holes) comprise:
 
 - L1x - the 1/8" top level with visible playing surface and pilot marks for drilling 1/8" holes
 - L2x - the 1/8" level with the gates used above the card compartment
@@ -67,8 +67,8 @@ The burn files that make up the pedestal base that goes below L4 comprises:
   - can be adjusted to accommodate the height of the deck of cards being used
     - the deck has to fit between L9 and the gates on L2, 1/4" above the gates on L3, but not be so roomy as to allow the gates on L3 to open above the cards; the cards are meant to lock the L3 gates closed with the pegs inside
     - 1/2" of L5 boards will fit a bare deck of cards and using an elastic can keep the gates tightly closed
-    - 3/4" of L5 boards barely will fit the plastic box [sold with the custom card deck](https://www.makeplayingcards.com/sell/cranesoftwrights) but the pressure helps to keep the gates closed 
-  - note that the deck should be high enough to block the peg gates from opening while being low enough to fut under the card gates
+    - 3/4" of L5 boards will fit the plastic box [sold with the custom card deck](https://www.makeplayingcards.com/sell/cranesoftwrights) but without pressure to keep the gates closed (use a thick elastic band around the plastic case to help keep the gates closed)
+  - note that the thickness of the deck you use should be high enough to block the peg gates from opening while being low enough to fit under the card gates
 - L9 - the 1/8" level with no peg holes cut and a full backing pattern for burning
 
 #### 2.3.4 Testimonial regarding burning experience
@@ -79,7 +79,7 @@ Using a slower raster speed than recommended can help to make a more defined res
 
 Using a slower cutting speed than recommended can help to reduce incomplete cuts that otherwise would need to be handled manually.
 
-Repeated sessions suggest the following order of burning files. On the machine used by the author, it takes almost two hours to burn eight boards in the following order:
+Repeated sessions suggest the following order of burning files. On the machine used by the author, it takes just over two hours to burn eight boards in the following order:
 
  - L2 - card storage gates - raster then burn
  - L9 - backing surface - raster then burn
@@ -98,4 +98,6 @@ No protective taping is needed for levels L3 and L5.
 
 ## 3. Assembly
 
-Use 1/4" bolts in the corners to anchor the glued boards for drying. Saw off the tabs when done.
+Use 1/4" bolts in the corners to anchor the glued boards for drying. Take the time first to thread all of the boards slowly and carefully. Sloppy handling can readily break off a tab being threaded. Once all four tabs are fully threaded through all of the eight boards, carefully unthread the bolts in preparation for gluing.
+
+Saw off the tabs when the gluing has fully cured. Sand the edges to remove the laser char.
