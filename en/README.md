@@ -22,7 +22,9 @@ Revenge at Hay Lake is a race to the finish, driven by good-natured vengeance ag
 
 As one of four, three, or even just two players, be the first to get all your four pegs from your start zone to your end zone, without being afraid to take revenge on any player who is racing you to the finish.
 
-Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to winning. 
+Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to winning.
+
+*We welcome and actively seek your feedback of suggestions and changes to any aspect of this game, either as a new issue in [`issues/`](../issues) or even complete GitHub pull requests. In particular, language variants of the documentation pages en [`en/`](../en) are encouraged in order to win over more fans of the game. Please review and agree with the [copyright details](../LICENSE) before sending any of your thoughts our way.*
 
 ## 2 The board
 
@@ -56,7 +58,7 @@ The sweep zones dictate special behaviours that are available when the end of on
 
 - if any of your own pegs are in the play zone holes covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
 - if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one hole before your safe zone entry point
-- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs in the play zone covered by that sweep zone are sent back to their start zone
+- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs in the play zone covered by that sweep zone are sent back to their respective start zone
 - pegs in the safe zone are not swept should an opponent sweep past the safe zone entry point
 - a player with a peg at their safe zone entry point is vulnerable in a sweep zone; an opponent is allowed to sweep their peg back to their start zone as the safe zone entry point is not, itself, safe from being swept
 
@@ -84,7 +86,7 @@ When a card is played, it is placed in a pile face up in front of the player so 
 
 At the end of a hand, all unplayed cards are discarded face down without being revealed to opponents. All face-up played cards in front of players also are added face-down to the discard. 
 
-The next hand is dealt unless there are not enough cards with which to deal a hand (should be three or fewer unplayed cards). The unplayed cards also are added to the discard. The discarded cards are gathered and passed to the left to the next dealer to be shuffled and a new set of hands are dealt.
+The next hand is dealt unless there are not enough cards with which to deal a hand (should be three or fewer unplayed cards). The unplayed cards also are added to the discard. The discarded cards are gathered and passed to the left to the next dealer to be shuffled and a new set of hands is dealt.
 
 Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/> that can be used also as a standard deck of cards in other games.
 
@@ -211,7 +213,7 @@ Each card has one or more plays, and each play involves one or more moves.
   </tr>
   <tr>
     <td valign="top" align="left"><img src="../shared/2-left.png" width="156.6" height="51.6"/></td>
-    <td valign="top" align="left">2: Move one peg two forward and if that does not win the game then play another card from the player's hand </td>
+    <td valign="top" align="left">2: Move one peg two forward and if that does not win the game, and the player has another card, then play another card from the player's hand </td>
     <td> </td>
     <td valign="top" align="left">9: Move one peg nine forward </td>
     <td valign="top" align="right"><img src="../shared/9-right.png" width="93.6" height="51.6"/></td>
@@ -220,7 +222,7 @@ Each card has one or more plays, and each play involves one or more moves.
     <td valign="top" align="left"><img src="../shared/3-left.png" width="95.1" height="51.6"/></td>
     <td valign="top" align="left">3: Move one peg three forward</td>
     <td> </td>
-    <td valign="top" align="left">10: Move one peg either ten forward or one backward</td>
+    <td valign="top" align="left">10: Either move one peg ten forward or move one peg one backward</td>
     <td valign="top" align="right"><img src="../shared/10-right.png" width="169.2" height="51.6"/></td>
   </tr>
   <tr>

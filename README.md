@@ -1,6 +1,6 @@
 # Revenge at Hay Lake
 
-A fun peg and card pursuit game for the whole family. One of the [games created by Crane Softwrights Ltd.](https://github.com/CraneSoftwrights/games) for free download from GitHub.
+A fun peg-and-card pursuit game for the whole family. One of the [games created by Crane Softwrights Ltd.](https://github.com/CraneSoftwrights/games) for free download from GitHub.
 
 Copyright © Crane Softwrights Ltd. ([copyright details](LICENSE))  
 Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/CraneSoftwrights/revenge)  
