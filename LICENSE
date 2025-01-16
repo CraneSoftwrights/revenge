@@ -1,3 +1,10 @@
+Copyright is claimed only on the board layout, board appearance, and playing 
+card appearances, but not on the rules and types of moves associated with 
+playing cards. So many different games appear to have similar moves assigned 
+to the same cards (see comments below).
+
+Anyone can make up their own rules of play. 
+
 BSD 3-Clause License
 
 Copyright (c) 2024, Crane Softwrights Ltd.
@@ -26,13 +33,6 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Copyright is claimed only on the board layout, board appearance, and playing 
-card appearances, but not on the rules and types of moves associated with 
-playing cards. So many different games appear to have similar moves assigned 
-to the same cards.
-
-Anyone can make up their own rules of play. 
 
 Other pursuit board games  
 

@@ -24,8 +24,6 @@ As one of four, three, or even just two players, be the first to get all your fo
 
 Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to win. 
 
-Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/>
-
 ## 2 The board
 
 ### 2.1 Legend
@@ -40,7 +38,7 @@ The following terminology is used in English:
 
 Players begin with all four of their pegs in their respective start zone. There is no order to removing pegs from the start zone.
 
-Players proceed around the play zone, typically though not always in the clockwise direction.
+Players proceed around the play zone according to the count of moves on played cards that typically, though not always, are moves in the clockwise direction.
 
 Players enter their safe zone from their safe zone entry point when moving clockwise (not when moving counterclockwise), without needing to complete their turn at their safe zone entry point, and head towards their end zone.
 
@@ -54,15 +52,15 @@ Players enter the end zone based on the nature of the win that has been agreed u
 
 <img src="../shared/sweep.png" style="height:100px"/>  
 
-The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if your peg arrives at that point on the last move of the play:
+The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if your peg arrives at that point on the last step of the move:
 
 - if any of your own pegs are covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
 - if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one hole before your safe zone entry point
-- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs are sent back to their start zone
+- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs covered by that zone are sent back to their start zone
 - pegs in the safe zone are not swept should an opponent sweep past the safe zone entry point
 - a player with a peg at their safe zone entry point is vulnerable in a sweep zone; an opponent is allowed to sweep their peg back to their start as the safe zone entry point is not, itself, safe from being swept
 
-A special note about the play of the "7" card: that dictates seven separate completed plays of one move each and so any number of those plays would qualify for consideration at a sweep zone entry point because each move of one is considered completed. There are circumstances where this card permits the player to sweep more than one zone in a single play.
+A special note about the play of the "7" card: that card dictates seven separate completed plays of one move each and so any number of those plays would qualify for consideration at a sweep zone entry point because each move of one is considered completed. There are circumstances where this card permits the player to sweep more than one zone in a single play.
 
 ## 3 The deal
 
@@ -78,13 +76,19 @@ When playing three players, again the first deal is five cards per player and su
 
 When playing two players, the deal changes slightly with the first two deals being five cards per player and the subsequent deals being four cards per player. All cards end up being played in six rounds unless one or both of the last two cards are jokers.
 
-When a card is played, it is shown first to all opponents and then discarded face down in the centre discard pile. The player proceeds then to act on the card being played. Should it be proven that the card in fact cannot be played, it is retrieved from the discard and put back into the player's hand. Discarded cards that are successfully played are not reused until the next dealer shuffles.
+A player may be in a position where they cannot play any card in their hand, though this may be a temporary situation until the board changes before a subsequent turn for the player.
 
-At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. Any undealt cards also are discarded face down. The discarded cards are gathered and passed clockwise to the next dealer.
+A player cannot choose to play no card if they have a card that is qualified to be played, even if playing the card is to their own detriment (see more details below).
+
+When a card is played, it is placed in a pile face up in front of the player so that all can see at least the last card played by each of their opponents. The player proceeds, then, to act on the card being played. Should it be proven that the card, in fact, cannot be played, it is put back into the player's hand and the player must play a different card from their hand (if they are able). Used cards that are successfully played are not reused until the next deal.
+
+At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. All played cards also are added to the discard. Any undealt cards also are added to the discard. The discarded cards are gathered and passed clockwise to the next dealer to be shuffled and dealt.
+
+Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/> that can be used also as a standard deck of cards in other games.
 
 ## 4 The play
 
-The play begins with the player to the dealer's left and continues clockwise. Each round finishes when the dealer makes their play. Rounds continue until one or more players win during the last round.
+The play begins with the player to the dealer's left and continues clockwise. Each round finishes when the dealer makes their play. Rounds continue until one or more players win during the last round (thus providing for a tie finish), or until no player can play a card which ends the hand. 
 
 Reviewing the cards dealt to them in their hands (See <a href="6-the-cards">6 The cards</a> for details), some cards represent one or more "qualifying moves" that can be played. A qualifying move is determined by the ability for a player's peg to occupy the last hole that satisfies one of the candidate plays described on the card. If the peg to be moved cannot occupy the last hole dictated by the move, then the move is not qualified.
 
@@ -96,9 +100,13 @@ A player's candidate move is not qualified if it should end at a hole occupied b
 
 A player takes revenge on an opponent by completing their play at a hole already occupied by that opponent. The opponent's peg must be returned to the opponent's start zone.
 
-When playing a given numbered advance, the holes counted may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play.
+When playing a given numbered advance, the holes counted by the steps may be empty or occupied by anyone. The only governing issue is the occupation of the hole at the very end of the play with the last step. Note the use of the notches every five holes that can be helpful when playing a card with a high number of steps in the move.
 
-The player shows their qualifying play card to their opponents before discarding it, face down, on the discard pile. When the hand is completed, if they have not already done so, all players still holding their unqualified cards discard them face down in the discard pile without revealing them to opponents (to prevent card counting).
+The player making a play places their qualifying play card face up in front of them so that opponents can see at least the last card played by each player. 
+
+When the hand is completed, all players still holding their unqualified cards discard them face down in the discard pile without revealing them to opponents (to inhibit card counting). All players with face-up played cards also discard them face down in the discard pile.
+
+The next hand is then dealt by the same dealer until there are not enough cards to deal a complete hand, at which time the discard is shuffled and the deal moves to the dealer's left.
 
 ### 4.1 The start
 
