@@ -1,4 +1,4 @@
-# A peg and card game of revenge
+# A peg and card pursuit game of revenge
 
 Copyright © Crane Softwrights Ltd. ([copyright details](../LICENSE))  
 Development: [`https://github.com/CraneSoftwrights/revenge`](https://github.com/CraneSoftwrights/revenge)  
@@ -20,7 +20,7 @@ Browser pages: [`https://cranesoftwrights.github.io/revenge/en/README.md.html`](
 
 Revenge at Hay Lake is a race to the finish, driven by good-natured vengeance against your opponents. 
 
-As one of four, three, or even just two players, be the first to get all your four pegs from your start zone to your end zone, without being afraid to take revenge on any player that gets in your way.
+As one of four, three, or even just two players, be the first to get all your four pegs from your start zone to your end zone, without being afraid to take revenge on any player who is racing you to the finish.
 
 Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to win. 
 
@@ -54,11 +54,11 @@ Players enter the end zone based on the nature of the win that has been agreed u
 
 The sweep zones dictate special behaviours that may be available when the end of one of your plays is at a sweep zone entry point, but only if your peg arrives at that point on the last step of the move:
 
-- if any of your own pegs are covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
+- if any of your own pegs are in the play zone holes covered by the sweep zone you have arrived at, you are not allowed to sweep your peg to the sweep zone exit point
 - if you choose, you can automatically sweep your peg to the sweep zone exit point, though typically you would not want to do this if you are at the sweep zone entry point one hole before your safe zone entry point
-- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs covered by that zone are sent back to their start zone
+- should you choose to sweep past the play zone holes covered by the sweep zone, any opponents' pegs in the play zone covered by that sweep zone are sent back to their start zone
 - pegs in the safe zone are not swept should an opponent sweep past the safe zone entry point
-- a player with a peg at their safe zone entry point is vulnerable in a sweep zone; an opponent is allowed to sweep their peg back to their start as the safe zone entry point is not, itself, safe from being swept
+- a player with a peg at their safe zone entry point is vulnerable in a sweep zone; an opponent is allowed to sweep their peg back to their start zone as the safe zone entry point is not, itself, safe from being swept
 
 A special note about the play of the "7" card: that card dictates seven separate completed plays of one move each and so any number of those plays would qualify for consideration at a sweep zone entry point because each move of one is considered completed. There are circumstances where this card permits the player to sweep more than one zone in a single play.
 
@@ -66,23 +66,25 @@ A special note about the play of the "7" card: that card dictates seven separate
 
 <img src="../shared/deals.png" style="height:120px"/>  
 
-A standard deck of 54 cards, including 52 suit cards and 2 jokers, is shuffled when the deal begins for a dealer.
+A standard deck of 54 cards, including 52 suit cards and 2 jokers, is shuffled before the deal begins for a dealer.
 
 The first dealer is determined by some agreed-upon method, one of which is just revealing one card for each player and the high card wins (aces are lowest and jokers are highest). Subsequent dealers take turns clockwise from the first dealer once the dealer has made it through the deck of cards.
 
-When playing four players, the first deal is five cards per player and subsequent deals are four cards per player.  All cards end up being played in three rounds unless one or both of the last two cards are jokers.
+When playing four players, the first hand dealt is five cards per player and subsequent hands are four cards per player.  All cards end up being played in three rounds unless one or both of the last two cards are jokers.
 
-When playing three players, again the first deal is five cards per player and subsequent deals are four cards per player. All but one of the cards end up being played in four rounds unless one or two of the last three cards are jokers.
+When playing three players, again the first hand dealt is five cards per player and subsequent hands are four cards per player. All but one of the cards end up being played in four rounds unless one or two of the last three cards are jokers.
 
-When playing two players, the deal changes slightly with the first two deals being five cards per player and the subsequent deals being four cards per player. All cards end up being played in six rounds unless one or both of the last two cards are jokers.
+When playing two players, the deal changes slightly with the first two hands dealt being five cards per player and the subsequent hands being four cards per player. All cards end up being played in six rounds unless one or both of the last two cards are jokers.
 
 A player may be in a position where they cannot play any card in their hand, though this may be a temporary situation until the board changes before a subsequent turn for the player.
 
 A player cannot choose to play no card if they have a card that is qualified to be played, even if playing the card is to their own detriment (see more details below).
 
-When a card is played, it is placed in a pile face up in front of the player so that all can see at least the last card played by each of their opponents. The player proceeds, then, to act on the card being played. Should it be proven that the card, in fact, cannot be played, it is put back into the player's hand and the player must play a different card from their hand (if they are able). Used cards that are successfully played are not reused until the next deal.
+When a card is played, it is placed in a pile face up in front of the player so that all can see at least the last card played by each of their opponents. The player proceeds, then, to act on the card being played. Should it be proven that the card, in fact, cannot be played, it is put back into the player's hand and the player must play a different card from their hand (if they are able). Used cards that are successfully played remain face up until the end of the hand, and are not reused until the next deal.
 
-At the end of a deal, all unplayed cards are discarded face down without being revealed to opponents. All played cards also are added to the discard. Any undealt cards also are added to the discard. The discarded cards are gathered and passed clockwise to the next dealer to be shuffled and dealt.
+At the end of a hand, all unplayed cards are discarded face down without being revealed to opponents. All face-up played cards in front of players also are added face-down to the discard. 
+
+The next hand is dealt unless there are not enough cards with which to deal a hand (should be three or fewer unplayed cards). The unplayed cards also are added to the discard. The discarded cards are gathered and passed to the left to the next dealer to be shuffled and a new set of hands are dealt.
 
 Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" target="_blank">buy a custom deck of Revenge at Hay Lake cards</a> direct from Crane's supplier <img src="../shared/revenge-deck.jpg" width="100px"/> that can be used also as a standard deck of cards in other games.
 
@@ -90,11 +92,15 @@ Note: You can <a href="https://www.makeplayingcards.com/sell/cranesoftwrights" t
 
 The play begins with the player to the dealer's left and continues clockwise. Each round finishes when the dealer makes their play. Rounds continue until one or more players win during the last round (thus providing for a tie finish), or until no player can play a card which ends the hand. 
 
-Reviewing the cards dealt to them in their hands (See <a href="6-the-cards">6 The cards</a> for details), some cards represent one or more "qualifying moves" that can be played. A qualifying move is determined by the ability for a player's peg to occupy the last hole that satisfies one of the candidate plays described on the card. If the peg to be moved cannot occupy the last hole dictated by the move, then the move is not qualified.
+Reviewing the cards dealt to them in their hands (See <a href="6-the-cards">6 The cards</a> for details), some cards represent one or more qualifying moves that can be played. 
 
-At their turn, players choose which of the qualified moves available in their hand to play. Players cannot "pass", that is, if there is a qualified move in their hand they are obliged to play it, even if it is strategically inconvenient. An example is having to move back out of the safe zone and into the play zone.
+A qualifying move is one of <a href="#41-the-start">making a start</a>, <a href="#42-revenge">taking revenge</a>, <a href="#43-the-swap">making a swap</a>, or moving a peg a set number of steps.
 
-A player without any qualified moves in their hands simply declares something along the lines of "I cannot play." Note that the cards in their hand may become playable once play returns to them based on changes made in the play area in the plays in between. Note also that it is not uncommon for a player to be unable to play for the entire duration of the deal. Woe to the player who is dealt such a hand repeatedly time and again (it happens!). While not mandatory, a player who has only cards that can never be played regardless of changes on the board may choose to discard them at any time to remind other players not to wait for them to say they cannot play.
+A qualifying move of a set number of steps is determined by the ability for a player's peg to occupy the last hole that satisfies one of the candidate plays described on the card. If the peg to be moved cannot occupy the last hole dictated by the last step of the move, then the move is not qualified.
+
+At their turn, players choose which of the qualified moves available in their hand to play. Players cannot pass, that is, if there is a qualified move in their hand they are obliged to play it, even if it is strategically inconvenient. An example is having to move back out of the safe zone and into the play zone.
+
+A player without any qualified moves in their hands simply declares something along the lines of "I cannot play." Note that the cards in their hand may become playable once play returns to them based on changes made in the play area in the plays in between. Note also that it is not uncommon for a player to be unable to play for the entire duration of the hand. Woe to the player who is dealt such a hand repeatedly time and again (it happens!). While not mandatory, a player who has only cards that can never be played regardless of changes on the board may choose to discard them at any time to remind other players not to wait for them to say they cannot play.
 
 A player's candidate move is not qualified if it should end at a hole occupied by themselves. A card with more than one candidate move does not need all moves to be qualified, as any one qualified move on the card allow the card to be played with that move. 
 
