@@ -30,7 +30,7 @@ Rules, resources, and instructions *(see the bottom of this page regarding addin
 
 Print image *(click the image then use the download icon at top right beside the pencil)* for A3 paper or US Tabloid 11x17 paper; the full board size fits in 10" x 10" or 254mm x 254mm, with a small unused margin of approximately .28in or 7mm around all four sides:
 
-[<img src="shared/revenge-crane.png"/>](burn/png/boards-no-peg-holes/Print-10x10-revenge-crane.png)
+[<img src="shared/revenge-crane.png"/>](burn/png/print/Print-10x10-revenge-crane.png)
 
 ## Adding additional language support
 
