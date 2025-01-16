@@ -24,7 +24,7 @@ As one of four, three, or even just two players, be the first to get all your fo
 
 Strategize the playing of your cards to move your pegs to optimize the results of your moves on your way to winning.
 
-*We welcome and actively seek your feedback of suggestions and changes to any aspect of this game, either as a new issue in [`issues/`](../issues) or even complete GitHub pull requests. In particular, language variants of the documentation pages en [`en/`](../en) are encouraged in order to win over more fans of the game. Please review and agree with the [copyright details](../LICENSE) before sending any of your thoughts our way.*
+*(We welcome and actively seek your feedback of suggestions and changes to any aspect of this game, either as a new issue in [`issues/`](https://github.com/CraneSoftwrights/revenge/issues) or even complete GitHub [pull requests](https://github.com/CraneSoftwrights/revenge/pulls). In particular, language variants of the documentation pages in the [`en/`](../en) directory are encouraged in order to win over more fans of the game. Please review and agree with the [copyright details](../LICENSE) before sending any of your thoughts our way.)*
 
 ## 2 The board
 
